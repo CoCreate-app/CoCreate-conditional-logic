@@ -1,141 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 
- 	<head>
-	    <meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <title>Conditional Logic | CoCreate</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
+    <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
+	<title>Conditional Logic | CoCreate</title>
+
+    <!-- CoCreateCSS -->
+    <link rel="stylesheet" href="https://cdn.cocreate.app/CoCreate.min.css" type="text/css" />
+    
+    <!-- CoCreate Avatar -->
+    <link rel="stylesheet" href="./CoCreate-avatar.css" type="text/css" />
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" crossorigin="anonymous" />    
+  </head>
+
+  <body>
 	  
-	    <link rel="stylesheet" href="https://server.cocreate.app/css/CoCreateUI.min.css" type="text/css" />
-	    <!--<link rel="stylesheet" href="https://cdn.cocreate.app/CoCreate.min.css" type="text/css" />-->
-	    
-	    <!-- Font Awesome -->
-	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" crossorigin="anonymous" />    
 
-		<style>
-			.hidden {display: none;}
-		</style>
-	</head>
-	<body>
-		
-		<h5 style='color:blue'>Toggle</h5>
-			<div class='show_hide' data-hide_id='#testdiv,#div2'  data-show_id='.testdiv,.div2'>
-				<i class="fa fa-plus-circle" data-transform_to="fas fa-minus-circle"></i>
-			</div>
-				<div id='testdiv' class="hidden testdiv"> Only SHOW </div>
-				<div id="div2" class="hidden div2"> Only SHOW2</div>
-							
-						
-		<h5 style='color:blue'>show</h5>
-			<div class='show_hide' data-show_id='#showdiv' data-hide_id='#hidediv'>
-				<i class="fas fa-plus-circle" data-transform_to="fas fa-minus-circle"></i>
-			</div>
-				<div id='showdiv' class="hidden"> Only SHOW </div>
-				<div id='hidediv'> TAG HIDE</div>
-
-		<h6 style='color:blue'>2 example SHOW (2 elements by ID) HIDE (1 element by ID)</h6>
-			<div class='show_hide' data-show_id='#showdiv1,#show2' data-hide_id='#hidediv1'>
-				<i class="fas fa-plus-circle" data-transform_to="fas fa-minus-circle"></i>
-			</div>
-				<div id='showdiv1'> Only SHOW 1</div>
-				<h3 id='show2'> only show 2</h3>
-				<div id='hidediv1'  class="hidden"> TAG HIDE</div>
-
-		<h6 style='color:blue'>2 example SHOW (2 elements by class) HIDE (3 element by class)</h6>
-				<div class='show_hide' data-show_id='.my_show' data-hide_id='.my_hide'>
-					<i class="fas fa-plus-circle" data-transform_to="fas fa-minus-circle"></i>
-				</div>
-				<div class='my_show'> Only SHOW 1</div>
-				
-		<h3 class='my_show'> only show 2</h3>
-				<div class='my_hide'  class="hidden"> TAG HIDE</div>
-				<h4 class='my_hide'  class="hidden"> Tag hide 2</h4>
-				<h3 class='my_hide'  class="hidden" Tag hide 3</h3>
-
-
-				<h6 style='color:blue'>3  example <b>CHECKBOX</b> SHOW (2 elements by class) HIDE (3 element by class)</h6>
-				<input type='checkbox' checked="true" class='show_hide' data-show_id='.my_show_check' data-hide_id='.my_hide_check'/>
-				<div class='my_show_check'> Only SHOW 1</div>
-				<h3 class='my_show_check'> only show 2</h3>
-				<div class='my_hide_check' class="hidden"> TAG HIDE</div>
-				<h4 class='my_hide_check' class="hidden"> Tag hide 2</h4>
-				<h3 class='my_hide_check' class="hidden"> Tag hide 3</h3>
-
-				<h6 style='color:blue'>4 example  RADIOBUTTON</h6>
-				<div class="section">
-                    <div class="option-group field">
-                        <label class="option">
-                            <input type="radio" name="pack" class="show_hide" value=""  data-show_id="#ctr_personal1">
-                            <span class="radio"></span> Personal
-                        </label>
-                        <label class="option">
-                            <input type="radio" name="pack" class="show_hide" value="" data-show_id="#ctr_business1" checked>
-                            <span class="radio"></span>  Business                
-                        </label>
-                        <label class="option">
-                            <input type="radio" name="pack" class="show_hide" value=""  data-show_id="#ctr_corporate1">
-                            <span class="radio"></span> Corporate               
-                        </label>                                                                   
-                    </div>
-                </div><!-- end section -->
-
-                <div id='ctr_personal1' class="hidden"> PERSONAL</div>
-                <div id='ctr_business1' > BUSINESS</div>
-                <div id='ctr_corporate1' class="hidden"> CORPORATE</div>
-
-                <h6 style='color:blue'>5 example  RADIOBUTTON (show MULTIPLE)</h6>
-				<div class="section">
-                    <div class="option-group field">
-                        <label class="option">
-                            <input type="radio" name="package" class="show_hide" value=""  data-show_id="#ctr_personal">
-                            <span class="radio"></span> Personal
-                        </label>
-                        <label class="option">
-                            <input type="radio" name="package" class="show_hide" value="" data-show_id="#ctr_business,#other_business" checked>
-                            <span class="radio"></span>  Business                
-                        </label>
-                        <label class="option">
-                            <input type="radio" name="package" class="show_hide" value=""  data-show_id=".ctr_corporate">
-                            <span class="radio"></span> Corporate               
-                        </label>                                                                   
-                    </div>
-                </div><!-- end section -->
-
-                <div id='ctr_personal' class="hidden"> PERSONAL</div>
-                <div id='ctr_business' > BUSINESS</div>
-                <div id='other_business' > other_business</div>
-                <div class='ctr_corporate' class="hidden"> CORPORATE 1</div>
-                <div class='ctr_corporate' class="hidden"> CORPORATE 2</div>
-                <div class='ctr_corporate' class="hidden"> CORPORATE 3 </div>
-				
-				<h6 style='color:blue'>6 example  SELECT</h6>
-					<select class='show_hide'>
-                        <option value="">Payment Method</option>
-                        <option value="Credit Card" data-show_id="#ctr_creditcard" selected>Credit Card</option>
-                        <option value="Check"  data-show_id=".ctr_check">Check</option>
-                        <option value="Other"  data-show_id="#ctr_other">Other</option>
-                   	</select>
-                <div id='ctr_creditcard' > Credicard</div>
-                <div class='ctr_check' class="hidden"> CHECK</div>
-                <div class='ctr_check' class="hidden"> CHECK2</div>
-                <div id='ctr_other' class="hidden"> OTHER</div>
-
-
-			<h6 style='color:blue'>7 example  SELECT (show multiples)</h6>
-				<select class='show_hide' multiple="true">
-                    <option value="">Payment Method</option>
-                    <option value="Credit Card" data-show_id="#ctr_creditcard1,#ctr_creditcard2" selected>Credit Card</option>
-                    <option value="Check"  data-show_id=".ctr_check1">Check</option>
-                    <option value="Other"  data-show_id="#ctr_other1,#ctr_other2">Other</option>
-               	</select>
-            <div id='ctr_creditcard1' > Credicard</div>
-            <div id='ctr_creditcard2' > Credicard2</div>
-            <div class='ctr_check1' class="hidden"> CHECK</div>
-            <div class='ctr_check1' class="hidden"> CHECK2</div>
-            <div class='ctr_check1' class="hidden"> CHECK3</div>
-            <div class='ctr_check1' class="hidden"> CHECK4</div>
-            <div id='ctr_other1' class="hidden"> OTHER</div>
+    <h5 style='color:blue'>Toggle</h5>
+    <div class='show_hide' data-hide_id='#testdiv,#div2'  data-show_id='.testdiv,.div2'>
+    <i class="fa fa-plus-circle" data-transform_to="fas fa-minus-circle"></i>
+    </div>
+    <div id='testdiv' class="hidden testdiv"> Only SHOW </div>
+    <div id="div2" class="hidden div2"> Only SHOW2</div>
+    			
+    		
+    <h5 style='color:blue'>show</h5>
+    <div class='show_hide' data-show_id='#showdiv' data-hide_id='#hidediv'>
+    <i class="fas fa-plus-circle" data-transform_to="fas fa-minus-circle"></i>
+    </div>
+    <div id='showdiv' class="hidden"> Only SHOW </div>
+    <div id='hidediv'> TAG HIDE</div>
+    
+    <h6 style='color:blue'>2 example SHOW (2 elements by ID) HIDE (1 element by ID)</h6>
+    <div class='show_hide' data-show_id='#showdiv1,#show2' data-hide_id='#hidediv1'>
+    <i class="fas fa-plus-circle" data-transform_to="fas fa-minus-circle"></i>
+    </div>
+    <div id='showdiv1'> Only SHOW 1</div>
+    <h3 id='show2'> only show 2</h3>
+    <div id='hidediv1'  class="hidden"> TAG HIDE</div>
+    
+    <h6 style='color:blue'>2 example SHOW (2 elements by class) HIDE (3 element by class)</h6>
+    <div class='show_hide' data-show_id='.my_show' data-hide_id='.my_hide'>
+    	<i class="fas fa-plus-circle" data-transform_to="fas fa-minus-circle"></i>
+    </div>
+    <div class='my_show'> Only SHOW 1</div>
+    
+    <h3 class='my_show'> only show 2</h3>
+    <div class='my_hide'  class="hidden"> TAG HIDE</div>
+    <h4 class='my_hide'  class="hidden"> Tag hide 2</h4>
+    <h3 class='my_hide'  class="hidden" Tag hide 3</h3>
+    
+    
+    <h6 style='color:blue'>3  example <b>CHECKBOX</b> SHOW (2 elements by class) HIDE (3 element by class)</h6>
+    <input type='checkbox' checked="true" class='show_hide' data-show_id='.my_show_check' data-hide_id='.my_hide_check'/>
+    <div class='my_show_check'> Only SHOW 1</div>
+    <h3 class='my_show_check'> only show 2</h3>
+    <div class='my_hide_check' class="hidden"> TAG HIDE</div>
+    <h4 class='my_hide_check' class="hidden"> Tag hide 2</h4>
+    <h3 class='my_hide_check' class="hidden"> Tag hide 3</h3>
+    
+    <h6 style='color:blue'>4 example  RADIOBUTTON</h6>
+    <div class="section">
+        <div class="option-group field">
+            <label class="option">
+                <input type="radio" name="pack" class="show_hide" value=""  data-show_id="#ctr_personal1">
+                <span class="radio"></span> Personal
+            </label>
+            <label class="option">
+                <input type="radio" name="pack" class="show_hide" value="" data-show_id="#ctr_business1" checked>
+                <span class="radio"></span>  Business                
+            </label>
+            <label class="option">
+                <input type="radio" name="pack" class="show_hide" value=""  data-show_id="#ctr_corporate1">
+                <span class="radio"></span> Corporate               
+            </label>                                                                   
+        </div>
+    </div><!-- end section -->
+    
+    <div id='ctr_personal1' class="hidden"> PERSONAL</div>
+    <div id='ctr_business1' > BUSINESS</div>
+    <div id='ctr_corporate1' class="hidden"> CORPORATE</div>
+    
+    <h6 style='color:blue'>5 example  RADIOBUTTON (show MULTIPLE)</h6>
+    <div class="section">
+        <div class="option-group field">
+            <label class="option">
+                <input type="radio" name="package" class="show_hide" value=""  data-show_id="#ctr_personal">
+                <span class="radio"></span> Personal
+            </label>
+            <label class="option">
+                <input type="radio" name="package" class="show_hide" value="" data-show_id="#ctr_business,#other_business" checked>
+                <span class="radio"></span>  Business                
+            </label>
+            <label class="option">
+                <input type="radio" name="package" class="show_hide" value=""  data-show_id=".ctr_corporate">
+                <span class="radio"></span> Corporate               
+            </label>                                                                   
+        </div>
+    </div><!-- end section -->
+    
+    <div id='ctr_personal' class="hidden"> PERSONAL</div>
+    <div id='ctr_business' > BUSINESS</div>
+    <div id='other_business' > other_business</div>
+    <div class='ctr_corporate' class="hidden"> CORPORATE 1</div>
+    <div class='ctr_corporate' class="hidden"> CORPORATE 2</div>
+    <div class='ctr_corporate' class="hidden"> CORPORATE 3 </div>
+    
+    <h6 style='color:blue'>6 example  SELECT</h6>
+    	<select class='show_hide'>
+            <option value="">Payment Method</option>
+            <option value="Credit Card" data-show_id="#ctr_creditcard" selected>Credit Card</option>
+            <option value="Check"  data-show_id=".ctr_check">Check</option>
+            <option value="Other"  data-show_id="#ctr_other">Other</option>
+       	</select>
+    <div id='ctr_creditcard' > Credicard</div>
+    <div class='ctr_check' class="hidden"> CHECK</div>
+    <div class='ctr_check' class="hidden"> CHECK2</div>
+    <div id='ctr_other' class="hidden"> OTHER</div>
+    
+    
+    <h6 style='color:blue'>7 example  SELECT (show multiples)</h6>
+    <select class='show_hide' multiple="true">
+        <option value="">Payment Method</option>
+        <option value="Credit Card" data-show_id="#ctr_creditcard1,#ctr_creditcard2" selected>Credit Card</option>
+        <option value="Check"  data-show_id=".ctr_check1">Check</option>
+        <option value="Other"  data-show_id="#ctr_other1,#ctr_other2">Other</option>
+       </select>
+    <div id='ctr_creditcard1' > Credicard</div>
+    <div id='ctr_creditcard2' > Credicard2</div>
+    <div class='ctr_check1' class="hidden"> CHECK</div>
+    <div class='ctr_check1' class="hidden"> CHECK2</div>
+    <div class='ctr_check1' class="hidden"> CHECK3</div>
+    <div class='ctr_check1' class="hidden"> CHECK4</div>
+    <div id='ctr_other1' class="hidden"> OTHER</div>
 
 
     <script>
@@ -145,39 +148,18 @@
         organization_Id: '5de0387b12e200ea63204d6c'
       }
     </script>
-     
-    <!--<script src="https://cdn.cocreate.app/CoCreate.min.js"></script>-->
-    <script src="https://server.cocreate.app/CoCreateJS/dist/CoCreate.min.js"></script>
-  
-    <!--<script src="https://server.cocreate.app/CoCreate-components/CoCreate-logic/CoCreate-logic.js"></script>-->
-    <!--<script src="https://server.cocreate.app/CoCreateJS/src/CoCreate-socket.js"></script>-->
-    <!--<script src="https://server.cocreate.app/CoCreateJS/src/CoCreate-utils.js"></script>-->
-    <!--<script src="https://server.cocreate.app/CoCreateJS/src/CoCreate.js"></script>-->
-  
-    <!--<script src="https://server.cocreate.app/CoCreate-components/CoCreate-y/y-client/dist/CoCreate-crdt.js"></script>-->
-  
-    <!--<script src="https://server.cocreate.app/CoCreate-components/CoCreate-document_id/CoCreate-document_id.js"></script>-->
-    <!--<script src="https://server.cocreate.app/CoCreate-components/CoCreate-form/CoCreate-form.js"></script>-->
-    <!--<script src="https://server.cocreate.app/CoCreate-components/CoCreate-filter/CoCreate-filter.js"></script> -->
-    <!--<script src="https://server.cocreate.app/CoCreate-components/CoCreate-templating/CoCreate-templating.js"></script>-->
     
-    <!--<script src="https://server.cocreate.app/CoCreate-components/CoCreate-savefetch/CoCreate-savefetch.js"></script>-->
-    <!--<script src="https://server.cocreate.app/CoCreate-components/CoCreate-clone/CoCreate-clone.js"></script>-->
-    <!--<script src="https://server.cocreate.app/CoCreate-components/CoCreate-dom/CoCreate-dom.js"></script>-->
+    <!-- CoCreateJS -->
+    <script src="https://cdn.cocreate.app/CoCreate.min.js"></script>
     
-    <!--<script src="https://server.cocreate.app/CoCreate-components/CoCreate-htmltags/CoCreate-htmltags.js"></script>-->
-    <!--<script src="https://server.cocreate.app/CoCreate-components/CoCreate-input/CoCreate-input.js"></script>-->
-  
-    <!--<script src="https://server.cocreate.app/CoCreate-components/CoCreate-cursors/CoCreate-cursors.js"></script>-->
-    <!--<script src="https://server.cocreate.app/CoCreate-components/CoCreate-text/CoCreate-text.js"></script>-->
-  
-    <!--<script src="https://server.cocreate.app/CoCreate-components/CoCreate-init/CoCreate-init.js"></script>-->
-  
-    <!--<script src="https://server.cocreate.app/js/CoCreateUI.min.js"></script>-->
-    <!--<script src="https://server.cocreate.app/CoCreate-components/CoCreate-select/CoCreate-select.js"></script>-->
-   
+    <!-- CoCreateUI -->
     <script src="https://cdn.cocreate.app/CoCreateUI.min.js"></script>
-    <script src="CoCreate-conditional-logic.js"></script>
+    
+    <!-- CoCreate Conditional logic -->
+    <script src="./CoCreate-conditional-logic.js"></script>
+    
+    <!-- CoCreate Flip Item -->
+    <script src="https://cdn.cocreate.app/CoCreate-flip-item.min.js"></script>
 
   </body>
 </html>
