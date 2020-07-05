@@ -13,7 +13,7 @@ document.addEventListener('fetchedTemplate', () => {
 
 function initShowHideEles() {
 	// var showHideEles = document.getElementsByClassName("show_hide");
-	var showHideEles = document.querySelectorAll('[data-show_id],[data-hide_id]');
+	var showHideEles = document.querySelectorAll('[data-show],[data-hide]');
 	
 	for (let el of showHideEles) {
 		
@@ -37,13 +37,13 @@ function selectShowHideEle(e) {
   		var opt = select.options[i];
       var value = opt.value
       if (value != ''){
-        var show_id = opt.dataset.show_id
+        var show = opt.dataset.show
        // var show_class = opt.dataset.showClass
-        if(typeof show_id!='undefined'){
-        	for (let el of document.querySelectorAll(show_id)) 
+        if(typeof show!='undefined'){
+        	for (let el of document.querySelectorAll(show)) 
         		el.classList.add('hidden');
         	if ( opt.selected === true ) {
-	        	for (let el of document.querySelectorAll(show_id))
+	        	for (let el of document.querySelectorAll(show))
         			el.classList.remove('hidden');
 	        }
         }
@@ -53,8 +53,8 @@ function selectShowHideEle(e) {
 
 function clickShowHideEle(e) {
 	console.log(this, 'click');
-	var show_id = this.dataset.show_id;
-	var hide_id = this.dataset.hide_id;
+	var show = this.dataset.show;
+	var hide = this.dataset.hide;
 	let tagName = this.tagName.toLowerCase();
 	
 	if(tagName =='input' && this.getAttribute("type").toLowerCase()=='radio') {
@@ -62,14 +62,14 @@ function clickShowHideEle(e) {
 		let radios = document.querySelectorAll(tagName+'[name="'+name+'"]');
 		for (let radio of radios) {
 			
-			show_id = radio.dataset.show_id;
+			show = radio.dataset.show;
 			
-			for (let el of document.querySelectorAll(show_id)) {
+			for (let el of document.querySelectorAll(show)) {
 				el.classList.add('hidden');
 			}
 				
 			if(radio.checked){
-				for (let el of document.querySelectorAll(show_id)) 
+				for (let el of document.querySelectorAll(show)) 
 					el.classList.remove('hidden');
 			}
 		}
@@ -78,14 +78,14 @@ function clickShowHideEle(e) {
 		
 		let updated_els = [];
 		
-		for (let el of document.querySelectorAll(show_id)) {
+		for (let el of document.querySelectorAll(show)) {
 			if(el.classList.contains('hidden')){
 				el.classList.remove('hidden');
 				updated_els.push(el);
 			}
 		}
 		
-		for (let el of document.querySelectorAll(hide_id)) {
+		for (let el of document.querySelectorAll(hide)) {
 			let existEqual = false;
 			for(let uel of updated_els){
 				if(el.isEqualNode(uel)){
