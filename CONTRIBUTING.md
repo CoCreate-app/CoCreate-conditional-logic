@@ -1,19 +1,19 @@
-# Contributing to CoCreateJS
+# Contributing to CoCreate-conditional-logic
 
-This project is work of [many contributors](https://github.com/CoCreate-app/Conditional_Logic/graphs/contributors).
-You're encouraged to submit [pull requests](https://github.com/CoCreate-app/Conditional_Logic/pulls),
-[propose features and discuss issues](https://github.com/CoCreate-app/Conditional_Logic/issues).
+This project is work of [many contributors](https://github.com/CoCreate-app/CoCreate-conditional-logic/graphs/contributors).
+You're encouraged to submit [pull requests](https://github.com/CoCreate-app/CoCreate-conditional-logic/pulls),
+[propose features and discuss issues](https://github.com/CoCreate-app/CoCreate-conditional-logic/issues).
 
 In the examples below, substitute your Github username for `contributor` in URLs.
 
 ## Fork the Project
 
-Fork the [project on Github](https://github.com/CoCreate-app/CoCreateJS) and check out your copy.
+Fork the [project on Github](https://github.com/CoCreate-app/CoCreate-conditional-logic) and check out your copy.
 
 ```
-git clone https://github.com/contributor/CoCreateJS.git
-cd CoCreateJS
-git remote add upstream https://github.com/CoCreate-app/CoCreateJS.git
+git clone https://github.com/contributor/CoCreate-conditional-logic.git
+cd CoCreate-conditional-logic
+git remote add upstream https://github.com/CoCreate-app/CoCreate-conditional-logic.git
 ```
 
 ## Create a Topic Branch
@@ -24,15 +24,6 @@ Make sure your fork is up-to-date and create a topic branch for your feature or 
 git checkout master
 git pull upstream master
 git checkout -b my-feature-branch
-```
-
-## Bundle Install and Test
-
-Ensure that you can build the project and run tests.
-
-```
-bundle install
-bundle exec rake
 ```
 
 ## Write Tests
@@ -79,7 +70,7 @@ git push origin my-feature-branch
 
 ## Make a Pull Request
 
-Go to [https://github.com/CoCreate-app/Conditional_Logic](https://github.com/CoCreate-app/Conditional_Logic) and select your feature branch.
+Go to [https://github.com/CoCreate-app/CoCreate-conditional-logic](https://github.com/CoCreate-app/CoCreate-conditional-logic) and select your feature branch.
 Click the 'Pull Request' button and fill out the form. Pull requests are usually reviewed within a few days.
 
 ## Rebase
@@ -97,7 +88,7 @@ git push origin my-feature-branch -f
 Update the [CHANGELOG](CHANGELOG.md) with the pull request number. A typical entry looks as follows.
 
 ```
-* [#123](https://github.com/CoCreate-app/Conditional_Logic/pull/123): Reticulated splines - [@contributor](https://github.com/contributor).
+* [#123](https://github.com/CoCreate-app/CoCreate-conditional-logic/pull/123): Reticulated splines - [@contributor](https://github.com/contributor).
 ```
 
 Amend your previous commit and force push the changes.
