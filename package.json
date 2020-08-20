@@ -12,9 +12,10 @@
     "url": "git+https://github.com/CoCreate-app/Conditional_Logic.git"
   },
   "author": "Frank Pagan",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/CoCreate-app/Conditional_Logic/issues"
   },
   "homepage": "https://github.com/CoCreate-app/Conditional_Logic#readme"
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
