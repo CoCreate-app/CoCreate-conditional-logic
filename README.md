@@ -1,11 +1,14 @@
-# CoCreate Conditional Logic
-Levaraging HTML5 data attributes and vanilla javascript to show and hide elements by class and or id. Just one of many components developed by the CoCreate Team to speed up website and web app development.
+# CoCreate-conditional-logic
+A simple conditional-logic component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API. Take it for a spin in our [playground!](https://cocreate.app/docs/conditional-logic)
 
-Checkout our Admin dashboard UI that can be used as a CRM and CMS. This admin template is powered by [CoCreateJS](https://cocreate.app/documentation) to provide Realtime CRUD functionality and convert this admin template into a realtime web application. CoCreateJS is a  makes use of data-attributes to Create, Read, Update and Delete in realtime. Can be used with any Html template to convert it in to a realtime website / web application. 
+![GitHub file size in bytes](https://img.shields.io/github/size/CoCreate-app/CoCreate-conditional-logic/dist/CoCreate-conditional-logic.min.js?label=minified%20size&style=for-the-badge) 
+![GitHub latest release](https://img.shields.io/github/v/release/CoCreate-app/CoCreate-conditional-logic?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/CoCreate-app/CoCreate-conditional-logic?style=for-the-badge) 
+![GitHub labels](https://img.shields.io/github/labels/CoCreate-app/CoCreate-conditional-logic/help%20wanted?style=for-the-badge)
 
 ![CoCreate](https://cdn.cocreate.app/logo.png)
 
-[CoCreate Docs](https://cocreate.app/documentation/CoCreate-conditional-logic)
+[CoCreate Docs](https://cocreate.app/docs/conditional-logic)
 
 
 We want this library to be community-driven, and CoCreate led. We need your help to realize this goal. To help make sure we are building the right things in the right order, we ask that you create [issues](https://github.com/CoCreate-app/Realtime_Admin_CRM_and_CMS/issues) and [pull requests](https://github.com/CoCreate-app/Realtime_Admin_CRM_and_CMS/pulls) or merely upvote or comment on existing issues or pull requests.
@@ -48,3 +51,4 @@ We encourage contribution to our libraries (you might even score some nifty swag
 
 # License
 [The MIT License (MIT)](https://github.com/CoCreate-app/CoCreate-conditional-logic/blob/master/LICENSE)
+

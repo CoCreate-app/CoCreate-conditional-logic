@@ -1,4 +1,4 @@
-	/*!
+/*!
  * https://cocreate.app
  * https://github.com/CoCreate-app/Conditional_Logic
  * Released under the MIT license
@@ -11,11 +11,22 @@ document.addEventListener('fetchedTemplate', () => {
 	initShowHideEles();
 })
 
-function initShowHideEles() {
-	// var showHideEles = document.getElementsByClassName("show_hide");
-	var showHideEles = document.querySelectorAll('[data-show],[data-hide]');
-	
-	for (let el of showHideEles) {
+//. cocreate init section
+function initShowHideEles(container) {
+	let mainContainer = container || document;
+	if (!mainContainer.querySelectorAll) {
+		return;
+	}
+	let elements = mainContainer.querySelectorAll(`[data-show],[data-hide]`);
+	if (elements.length === 0 && mainContainer != document && 
+		(mainContainer.hasAttribute(`[data-show]`) || mainContainer.hasAttributes("[data-hide"))) {
+		elements = [mainContainer];
+	}
+	for (let el of elements) {
+		if (CoCreateObserver.getInitialized(el, "conditional-logic")) {
+			return;
+		}
+		CoCreateObserver.setInitialized(el, "conditional-logic")
 		
 		if(el.tagName.toLowerCase() == "option")
 			el = el.closest('select');
@@ -27,6 +38,49 @@ function initShowHideEles() {
 		el.addEventListener("click", clickShowHideEle);	
 	}	
 }
+// CoCreateInit.register('CoCreateConditionalLogic', window, window.initShowHideEles);
+
+CoCreateObserver.add({ 
+	name: 'CoCreateConditionalLogic', 
+	observe: ['subtree', 'childList'],
+	include: '[data-show],[data-hide]',
+	task: function(mutation) {
+		window.initShowHideEles(mutation.target)
+	}
+})
+
+//. upgrade by jin (using document event)
+// function initShowHideEles() {
+	
+// 	const selector = "[data-show],[data-hide]";
+// 	document.removeEventListener("change", function(event) {
+// 		const target = event.target.closest(selector);
+// 		if (target) {
+// 			selectShowHideEle(event)
+// 		}
+// 	});
+	
+// 	document.removeEventListener("click", function(event) {
+// 		const target = event.target.closest(selector);
+// 		if (target) {
+// 			clickShowHideEle(event)
+// 		}
+// 	});
+	
+// 	document.addEventListener("change", function(event) {
+// 		const target = event.target.closest(selector);
+// 		if (target) {
+// 			selectShowHideEle(event)
+// 		}
+// 	});
+	
+// 		document.addEventListener("click", function(event) {
+// 		const target = event.target.closest(selector);
+// 		if (target) {
+// 			clickShowHideEle(event)
+// 		}
+// 	});
+// }
 
 function selectShowHideEle(e) {
 	console.log(this, 'select');
@@ -99,3 +153,5 @@ function clickShowHideEle(e) {
 	}
 }
 
+const CoCreateConditionalLogic = { initShowHideEles, selectShowHideEle, clickShowHideEle };
+export default CoCreateConditionalLogic;
