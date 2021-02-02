@@ -45,7 +45,7 @@ CoCreateObserver.add({
 	observe: ['subtree', 'childList'],
 	include: '[data-show],[data-hide]',
 	task: function(mutation) {
-		window.initShowHideEles(mutation.target)
+		initShowHideEles(mutation.target)
 	}
 })
 
@@ -153,5 +153,5 @@ function clickShowHideEle(e) {
 	}
 }
 
-const CoCreateConditionalLogic = { initShowHideEles, selectShowHideEle, clickShowHideEle };
-export default CoCreateConditionalLogic;
+const conditionalLogic = { initShowHideEles, selectShowHideEle, clickShowHideEle };
+export default conditionalLogic;

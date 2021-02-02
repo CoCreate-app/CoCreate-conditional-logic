@@ -22,9 +22,41 @@ module.exports = {
     filename: isProduction ? '[name].min.js' : '[name].js',
     libraryTarget: 'umd',
     libraryExport: 'default',
-    library: 'CoCreateConditionalLogic',
+    library: ['CoCreate', 'conditionalLogic'],
     globalObject: "this",
   },
 
+
+  // Default mode for Webpack is production.
+  // Depending on mode Webpack will apply different things
+  // on final bundle. For now we don't need production's JavaScript
+  // minifying and other thing so let's set mode to development
+  mode: isProduction ? 'production' : 'development',
+  module: {
+    rules: [{
+        test: /\.js$/,
+        exclude: /(node_modules)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env']
+          }
+        }
+      },
+    ]
+  },
+
+  // add source map
+  ...(isProduction ? {} : { devtool: 'eval-source-map' }),
+
+  // add uglifyJs
+  optimization: {
+    minimizer: [new UglifyJsPlugin({
+      uglifyOptions: {
+        // get options: https://github.com/mishoo/UglifyJS
+        drop_console: isProduction
+      },
+    })],
+  },
 
 };
