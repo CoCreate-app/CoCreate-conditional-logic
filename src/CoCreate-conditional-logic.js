@@ -153,5 +153,5 @@ function clickShowHideEle(e) {
 	}
 }
 
-const conditionalLogic = { initShowHideEles, selectShowHideEle, clickShowHideEle };
-export default conditionalLogic;
+const CoCreateConditionalLogic = { initShowHideEles, selectShowHideEle, clickShowHideEle };
+export default CoCreateConditionalLogic;
