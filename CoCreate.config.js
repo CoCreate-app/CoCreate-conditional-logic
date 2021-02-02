@@ -9,7 +9,7 @@ module.exports = {
     sources: [{
             path: "./docs/index.html",
             collection: "files",
-            document_id: "",
+            document_id: "6019bfa94eea0817df303b0c",
             key: "html",
             data:{
                 name: "Conditional-logic Doc",
@@ -19,10 +19,10 @@ module.exports = {
    
     crud: [{
             collection: "routes",
-            document_id: "",
+            document_id: "6019bfa94eea0817df303b0b",
             data:{
                 collection: "files",
-                document_id: "",
+                document_id: "6019bfa94eea0817df303b0c",
                 name: "html",
                 domains: ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
                 route: "/docs/conditional-logic",
