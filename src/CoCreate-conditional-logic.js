@@ -23,10 +23,10 @@ function initShowHideEles(container) {
 		elements = [mainContainer];
 	}
 	for (let el of elements) {
-		if (CoCreateObserver.getInitialized(el, "conditional-logic")) {
+		if (CoCreate.observer.getInitialized(el, "conditional-logic")) {
 			return;
 		}
-		CoCreateObserver.setInitialized(el, "conditional-logic")
+		CoCreate.observer.setInitialized(el, "conditional-logic")
 		
 		if(el.tagName.toLowerCase() == "option")
 			el = el.closest('select');
@@ -40,11 +40,11 @@ function initShowHideEles(container) {
 }
 // CoCreateInit.register('CoCreateConditionalLogic', window, window.initShowHideEles);
 
-CoCreateObserver.add({ 
+CoCreate.observer.add({ 
 	name: 'CoCreateConditionalLogic', 
 	observe: ['subtree', 'childList'],
 	include: '[data-show],[data-hide]',
-	task: function(mutation) {
+	callback: function(mutation) {
 		initShowHideEles(mutation.target)
 	}
 })
