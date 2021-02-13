@@ -40,7 +40,7 @@ function initShowHideEles(container) {
 }
 // CoCreateInit.register('CoCreateConditionalLogic', window, window.initShowHideEles);
 
-CoCreate.observer.add({ 
+CoCreate.observer.init({ 
 	name: 'CoCreateConditionalLogic', 
 	observe: ['subtree', 'childList'],
 	include: '[data-show],[data-hide]',
