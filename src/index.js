@@ -4,6 +4,7 @@
  * Released under the MIT license
  * https://github.com/CoCreate-app/Conditional_Logic/blob/master/LICENSE
  */
+import observer from '@cocreate/observer'
 
 initShowHideEles();
 
@@ -23,10 +24,10 @@ function initShowHideEles(container) {
 		elements = [mainContainer];
 	}
 	for (let el of elements) {
-		if (CoCreate.observer.getInitialized(el, "conditional-logic")) {
+		if (observer.getInitialized(el, "conditional-logic")) {
 			return;
 		}
-		CoCreate.observer.setInitialized(el, "conditional-logic")
+		observer.setInitialized(el, "conditional-logic")
 		
 		if(el.tagName.toLowerCase() == "option")
 			el = el.closest('select');
@@ -40,7 +41,7 @@ function initShowHideEles(container) {
 }
 // CoCreateInit.register('CoCreateConditionalLogic', window, window.initShowHideEles);
 
-CoCreate.observer.init({ 
+observer.init({ 
 	name: 'CoCreateConditionalLogic', 
 	observe: ['subtree', 'childList'],
 	include: '[data-show],[data-hide]',
