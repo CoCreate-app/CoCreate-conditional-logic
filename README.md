@@ -9,7 +9,7 @@ A simple conditional-logic component in vanilla javascript. Easily configured us
 
 ![CoCreate-conditional-logic](https://cdn.cocreate.app/docs/CoCreate-conditional-logic.gif)
 
-## [Docs & Demo](https://cocreate.app/docs/clone)
+## [Docs & Demo](https://cocreate.app/docs/conditional-logic)
 
 For a complete guide and working demo refer to the [doumentation](https://cocreate.app/docs/conditional-logic)
 
