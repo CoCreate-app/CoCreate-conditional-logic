@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.1...v1.0.2) (2021-04-19)
+
+
+### Bug Fixes
+
+* ci and build process ([0adac36](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/0adac368f283d54e233442243fb3c933d14803bb))
+* npm publish and cdn deployment ([38c2b27](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/38c2b2705658f78ae4ff643b6bcce3e1b1308e04))
+
 ## [1.0.1](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.0...v1.0.1) (2021-03-29)
 
 
