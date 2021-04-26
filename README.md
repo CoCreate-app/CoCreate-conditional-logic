@@ -1,6 +1,6 @@
 # CoCreate-conditional-logic
 
-A simple conditional-logic component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API. Take it for a spin in our [playground!](https://cocreate.app/docs/conditional-logic)
+Simple JS component show & hide elements conditionally with inputs,checkbox,radio,btn etc.Great for creating tabs, accordions, dynamic forms, etc. Easy Configuration using HTML5 data attributes and/or JavaScript API. Take it for a spin in our [playground!](https://cocreate.app/docs/conditional-logic)
 
 ![GitHub file size in bytes](https://img.shields.io/github/size/CoCreate-app/CoCreate-conditional-logic/dist/CoCreate-conditional-logic.min.js?label=minified%20size&style=for-the-badge)
 ![GitHub latest release](https://img.shields.io/github/v/release/CoCreate-app/CoCreate-conditional-logic?style=for-the-badge)
