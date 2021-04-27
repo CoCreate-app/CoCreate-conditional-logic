@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.5...v1.0.6) (2021-04-27)
+
+
+### Bug Fixes
+
+* add host in docs ([0bf61c1](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/0bf61c18590ca8bcbe1b20808e43c98c00f25650))
+
 ## [1.0.5](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.4...v1.0.5) (2021-04-27)
 
 
