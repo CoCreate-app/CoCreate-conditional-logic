@@ -10,7 +10,7 @@ module.exports = {
             "path": "./docs/index.html",
             "collection": "files",
             "document_id": "6019bfa94eea0817df303b0c",
-            "key": "html",
+            "key": "src",
             "data":{
                 "name": "conditional-logic Doc",
                 "domains": ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
