@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.6...v1.0.7) (2021-05-08)
+
+
+### Bug Fixes
+
+* add css auto parse and save to docs. ([98b04f5](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/98b04f560e2e092de9cbe87ad1681130654696a9))
+
 ## [1.0.6](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.5...v1.0.6) (2021-04-27)
 
 
