@@ -24,11 +24,7 @@ function initShowHideEles(container) {
 		elements = [mainContainer];
 	}
 	for (let el of elements) {
-		if (observer.getInitialized(el, "conditional-logic")) {
-			return;
-		}
-		observer.setInitialized(el, "conditional-logic")
-		
+
 		if(el.tagName.toLowerCase() == "option")
 			el = el.closest('select');
 		
