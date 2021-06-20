@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.7...v1.0.8) (2021-06-16)
+
+
+### Bug Fixes
+
+* added header for seo ([f68f31e](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/f68f31e3bb68e1146369b8b1249923bb4697823e))
+
 ## [1.0.7](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.6...v1.0.7) (2021-05-08)
 
 
