@@ -39,9 +39,10 @@ function initShowHideEles(container) {
 
 observer.init({ 
 	name: 'CoCreateConditionalLogic', 
-	observe: ['subtree', 'childList'],
-	include: '[data-show],[data-hide]',
+	observe: ['addedNodes'],
+	attributes: ['data-show', 'data-hide'],
 	callback: function(mutation) {
+		
 		initShowHideEles(mutation.target)
 	}
 })
