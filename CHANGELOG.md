@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.9...v1.0.10) (2021-06-23)
+
+
+### Bug Fixes
+
+* update to new crud.save and crud.read ([e1c626e](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/e1c626ef16e761b43f26792bce5d1d8a80d90053))
+
 ## [1.0.9](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.8...v1.0.9) (2021-06-20)
 
 
