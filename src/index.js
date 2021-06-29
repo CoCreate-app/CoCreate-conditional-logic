@@ -1,11 +1,13 @@
-/*!
+/*
  * https://cocreate.app
  * https://github.com/CoCreate-app/Conditional_Logic
  * Released under the MIT license
  * https://github.com/CoCreate-app/Conditional_Logic/blob/master/LICENSE
  */
 import observer from '@cocreate/observer'
+import {logger} from '@cocreate/utils';
 
+let console = logger('off');
 initShowHideEles();
 
 document.addEventListener('fetchedTemplate', () => {
