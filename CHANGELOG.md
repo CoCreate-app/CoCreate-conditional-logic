@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.13...v1.0.14) (2021-06-29)
+
+
+### Bug Fixes
+
+* add logger utility ([9e7c5d2](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/9e7c5d2098a5acee63276c07997701c80b547349))
+
 ## [1.0.13](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.12...v1.0.13) (2021-06-25)
 
 
