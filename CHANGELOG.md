@@ -1,3 +1,10 @@
+## [1.0.20](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.19...v1.0.20) (2021-07-14)
+
+
+### Bug Fixes
+
+* upgrade all packages ([14912e7](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/14912e71ce94a8f05a3e5a0fd46ec13df30d97ac))
+
 ## [1.0.19](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.18...v1.0.19) (2021-07-13)
 
 
