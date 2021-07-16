@@ -1,3 +1,18 @@
+## [1.0.20](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.19...v1.0.20) (2021-07-14)
+
+
+### Bug Fixes
+
+* upgrade all packages ([14912e7](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/14912e71ce94a8f05a3e5a0fd46ec13df30d97ac))
+
+## [1.0.19](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.18...v1.0.19) (2021-07-13)
+
+
+### Bug Fixes
+
+* add yarn lockfile to git ignore ([09ce395](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/09ce395954c9e91096e901b381bb9e2fdd89d288))
+* remove yarn.lock ([cfe4906](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/cfe4906e44932fedaec2d41289438509b56b4d40))
+
 ## [1.0.18](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.17...v1.0.18) (2021-07-10)
 
 
