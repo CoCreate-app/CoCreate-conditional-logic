@@ -1,3 +1,11 @@
+## [1.0.21](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.20...v1.0.21) (2021-07-17)
+
+
+### Bug Fixes
+
+* init and update demos scripts ([09e9fe9](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/09e9fe90a6ba235f80803f0e7ec2839e15e98e27))
+* workflows ([e5f253f](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/e5f253ff7f2a753e6a5e7674a394fe3fe01d4b15))
+
 ## [1.0.20](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.19...v1.0.20) (2021-07-14)
 
 
