@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.21...v1.1.0) (2021-07-28)
+
+
+### Features
+
+* add new is{attribute} system and remove data- from attributtes ([97cdd11](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/97cdd119bfab5044735dccd5803b0d7fcefbc59e))
+
 ## [1.0.21](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.20...v1.0.21) (2021-07-17)
 
 
