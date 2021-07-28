@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.1.0...v1.1.1) (2021-07-28)
+
+
+### Bug Fixes
+
+* remove data- from fetch, pass and filter ([81a2dcb](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/81a2dcb2902b9fd8ecda848fc01dcf5d27d5d61d))
+
 # [1.1.0](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.0.21...v1.1.0) (2021-07-28)
 
 
