@@ -9,25 +9,25 @@
 	  
     <h5 style='color:blue'>Toggle</h5>
     
-    <div data-hide='#testdiv,#div2'  data-show='.testdiv,.div2'>
+    <div hide='#testdiv,#div2' show='.testdiv,.div2'>
            <div  class="test">click me</div><br/>
     </div>
 
-    <div data-hide='#testdiv,#div2'  data-show='.testdiv,.div2'>
-    <i class="fa fa-plus-circle" data-transform_to="fas fa-minus-circle"></i>
+    <div hide='#testdiv,#div2' show='.testdiv,.div2'>
+    <i class="fa fa-plus-circle"></i>
     </div>
     <div id='testdiv' class="hidden testdiv"> Only SHOW </div>
     <div id="div2" class="hidden div2"> Only SHOW2</div>
     			
     <h5 style='color:blue'>show</h5>
-    <div data-show='#showdiv' data-hide='#hidediv'>
+    <div show='#showdiv' hide='#hidediv'>
     <i class="fas fa-plus-circle" data-transform_to="fas fa-minus-circle"></i>
     </div>
     <div id='showdiv' class="hidden"> Only SHOW </div>
     <div id='hidediv'> TAG HIDE</div>
     
     <h6 style='color:blue'>2 example SHOW (2 elements by ID) HIDE (1 element by ID)</h6>
-    <div  data-show='#showdiv1,#show2' data-hide='#hidediv1'>
+    <div  show='#showdiv1,#show2' hide='#hidediv1'>
     <i class="fas fa-plus-circle" data-transform_to="fas fa-minus-circle"></i>
     </div>
     <div id='showdiv1'> Only SHOW 1</div>
@@ -35,7 +35,7 @@
     <div id='hidediv1'  class="hidden"> TAG HIDE</div>
     
     <h6 style='color:blue'>2 example SHOW (2 elements by class) HIDE (3 element by class)</h6>
-    <div  data-show='.my_show' data-hide='.my_hide'>
+    <div  show='.my_show' hide='.my_hide'>
     	<i class="fas fa-plus-circle" data-transform_to="fas fa-minus-circle"></i>
     </div>
     <div class='my_show'> Only SHOW 1</div>
@@ -46,7 +46,7 @@
     <h3 class='my_hide'  class="hidden"></h3> Tag hide 3</h3>
     
     <h6 style='color:blue'>3  example <b>CHECKBOX</b> SHOW (2 elements by class) HIDE (3 element by class)</h6>
-    <input type='checkbox' checked="true"  data-show='.my_show_check' data-hide='.my_hide_check'/>
+    <input type='checkbox' checked="true"  show='.my_show_check' hide='.my_hide_check'/>
     <div class='my_show_check'> Only SHOW 1</div>
     <h3 class='my_show_check'> only show 2</h3>
     <div class='my_hide_check' class="hidden"> TAG HIDE</div>
@@ -57,15 +57,15 @@
     <div class="section">
         <div class="option-group field">
             <label class="option">
-                <input type="radio" name="pack" class="show_hide" value=""  data-show="#ctr_personal1">
+                <input type="radio" name="pack" value=""  show="#ctr_personal1">
                 <span class="radio"></span> Personal
             </label>
             <label class="option">
-                <input type="radio" name="pack" class="show_hide" value="" data-show="#ctr_business1" checked>
+                <input type="radio" name="pack" value="" show="#ctr_business1" checked>
                 <span class="radio"></span>  Business                
             </label>
             <label class="option">
-                <input type="radio" name="pack" class="show_hide" value=""  data-show="#ctr_corporate1">
+                <input type="radio" name="pack" value=""  show="#ctr_corporate1">
                 <span class="radio"></span> Corporate               
             </label>                                                                   
         </div>
@@ -79,15 +79,15 @@
     <div class="section">
         <div class="option-group field">
             <label class="option">
-                <input type="radio" name="package" class="show_hide" value=""  data-show="#ctr_personal">
+                <input type="radio" name="package" value=""  show="#ctr_personal">
                 <span class="radio"></span> Personal
             </label>
             <label class="option">
-                <input type="radio" name="package" class="show_hide" value="" data-show="#ctr_business,#other_business" checked>
+                <input type="radio" name="package" value="" show="#ctr_business,#other_business" checked>
                 <span class="radio"></span>  Business                
             </label>
             <label class="option">
-                <input type="radio" name="package" class="show_hide" value=""  data-show=".ctr_corporate">
+                <input type="radio" name="package" value=""  show=".ctr_corporate">
                 <span class="radio"></span> Corporate               
             </label>                                                                   
         </div>
@@ -103,9 +103,9 @@
     <h6 style='color:blue'>6 example  SELECT</h6>
     	<select >
             <option value="">Payment Method</option>
-            <option value="Credit Card" data-show="#ctr_creditcard" selected>Credit Card</option>
-            <option value="Check"  data-show=".ctr_check">Check</option>
-            <option value="Other"  data-show="#ctr_other">Other</option>
+            <option value="Credit Card" show="#ctr_creditcard" selected>Credit Card</option>
+            <option value="Check"  show=".ctr_check">Check</option>
+            <option value="Other"  show="#ctr_other">Other</option>
        	</select>
     <div id='ctr_creditcard' > Credicard</div>
     <div class='ctr_check' class="hidden"> CHECK</div>
@@ -115,9 +115,9 @@
     <h6 style='color:blue'>7 example  SELECT (show multiples)</h6>
     <select  multiple="true">
         <option value="">Payment Method</option>
-        <option value="Credit Card" data-show="#ctr_creditcard1,#ctr_creditcard2" selected>Credit Card</option>
-        <option value="Check"  data-show=".ctr_check1">Check</option>
-        <option value="Other"  data-show="#ctr_other1,#ctr_other2">Other</option>
+        <option value="Credit Card" show="#ctr_creditcard1,#ctr_creditcard2" selected>Credit Card</option>
+        <option value="Check"  show=".ctr_check1">Check</option>
+        <option value="Other"  show="#ctr_other1,#ctr_other2">Other</option>
        </select>
     <div id='ctr_creditcard1' > Credicard</div>
     <div id='ctr_creditcard2' > Credicard2</div>

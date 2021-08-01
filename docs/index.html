@@ -29,13 +29,13 @@
                     <h2>CoCreate-conditional-logic</h2>
                 </div>
                 <div class="display:flex align-items:center font-size:20px position:absolute right:0 padding:5px background:white">
-                    <div class="display:flex align-items:center transition:0.3s padding-left:10px" data-share_network="true" data-share_text="Enter decription here" data-share_title="testing im a title" data-share_height="600" data-share_width="700" data-share_media="https://cdn.cocreate.app/docs/conditional-logic.png" data-hover="display:block!important" data-hover_target=".social-networks">
+                    <div class="display:flex align-items:center transition:0.3s padding-left:10px" share-network="true" share-text="Enter decription here" share-title="testing im a title" share-height="600" share-width="700" share-media="https://cdn.cocreate.app/docs/conditional-logic.png" data-hover="display:block!important" data-hover_target=".social-networks">
                         <div class="display:none social-networks">
-                            <a class="margin-right:15px" data-share_network='twitter' title="Share on twitter"><i class="fab fa-twitter"></i></a>
-                            <a class="margin-right:15px" data-share_network='facebook' title="Share on Facebook"><i class="fab fa-facebook"></i></a>
-                            <a class="margin-right:15px" data-share_network='instagram' title="Share on instagram"><i class="fab fa-instagram"></i></a>
+                            <a class="margin-right:15px" share-network='twitter' title="Share on twitter"><i class="fab fa-twitter"></i></a>
+                            <a class="margin-right:15px" share-network='facebook' title="Share on Facebook"><i class="fab fa-facebook"></i></a>
+                            <a class="margin-right:15px" share-network='instagram' title="Share on instagram"><i class="fab fa-instagram"></i></a>
                         </div>
-                        <a class="margin-right:15px" data-share_network='share' title="Share on share"><i class="fas fa-share-alt"></i></a>
+                        <a class="margin-right:15px" share-network='share' title="Share on share"><i class="fas fa-share-alt"></i></a>
                     </div>
                     <a href="https://github.com/CoCreate-app/CoCreate-conditional-logic" target="_blank" class="margin-right:15px"><i class="fab fa-github"></i></a>
                 </div>
@@ -67,7 +67,7 @@
                             <pre>
                                 <code class="language-js">
     &lt;h5 style='color:blue'&gt;Toggle&lt;/h5&gt;
-    &lt;div data-hide='#testdiv,#div2'  data-show='.testdiv,.div2'&gt;
+    &lt;div hide='#testdiv,#div2'  show='.testdiv,.div2'&gt;
            &lt;div  class=&quot;test&quot;&gt;click me&lt;/div&gt;&lt;br/&gt;
     &lt;/div&gt;
     &lt;div id='testdiv' class=&quot;hidden testdiv&quot;&gt; Only SHOW &lt;/div&gt;
@@ -86,11 +86,11 @@
                     </div>
                     <ul class="list-style-type:none ">
                         <li class="padding:15px_0px border-bottom:1px_solid_lightgrey">
-                            <h4><span>data-show</span> <span class="cocreate-badge success">string</span> <span class="cocreate-badge warning">optional</span></h4>
+                            <h4><span>show</span> <span class="cocreate-badge success">string</span> <span class="cocreate-badge warning">optional</span></h4>
                             <p>selector of elements to display</p>
                         </li>
                         <li class="padding:15px_0px border-bottom:1px_solid_lightgrey">
-                            <h4><span>data-hide</span> <span class="cocreate-badge success">string</span> <span class="cocreate-badge warning">optional</span></h4>
+                            <h4><span>hide</span> <span class="cocreate-badge success">string</span> <span class="cocreate-badge warning">optional</span></h4>
                             <p>selector of elements to hide</p>
                         </li>
                     </ul>
@@ -108,8 +108,8 @@
                     <div class="position:sticky top:0 padding:15px_0px height:100vh">
     			    <div class="container svColumn overflow:hidden card border-radius:2px width:auto height:100%" id="form-sandbox">
     			       <div class="font-size:20px position:absolute top:10px right:10px opacity:0.6 z-index:7">
-    			        <a class="margin-right:10px" id="preview" data-show="preview" data-hide="code"><i class="far fa-eye"></i></a>
-    			        <a class="margin-right:10px hidden" id="code" data-show="code" data-hide="preview"><i class="fas fa-code"></i></a>
+    			        <a class="margin-right:10px" id="preview" show="preview" hide="code"><i class="far fa-eye"></i></a>
+    			        <a class="margin-right:10px hidden" id="code" show="code" hide="preview"><i class="fas fa-code"></i></a>
     			        <!--<a class="margin-right:10px"><i class="far fa-window-maximize"></i></a>-->
     					<a target="modal" href="module_activity_datatable.html"
     				  	     pass-collection="modules"
@@ -143,7 +143,7 @@
     			            	<div class="svSplitter svHorizontal"> </div>
     			
     			                <div class="svPanel">
-    			                    <iframe data-get_value="7" frameBorder="0" height="100%" width="100%"  class="min-width:300px"></iframe>
+    			                    <iframe get-value="7" frameBorder="0" height="100%" width="100%"  class="min-width:300px"></iframe>
     			                </div>
     			                
     			            </div>

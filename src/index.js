@@ -1,28 +1,20 @@
 /*
  * https://cocreate.app
- * https://github.com/CoCreate-app/Conditional_Logic
+ * https://github.com/CoCreate-app/CoCreate-conditional-logic
  * Released under the MIT license
- * https://github.com/CoCreate-app/Conditional_Logic/blob/master/LICENSE
+ * https://github.com/CoCreate-app/CoCreate-conditional-logic/blob/master/LICENSE
  */
+ 
 import observer from '@cocreate/observer'
-import { logger } from '@cocreate/utils';
 
-let console = logger('off');
-init();
-
-document.addEventListener('fetchedTemplate', () => {
-	init();
-})
-
-//. cocreate init section
 function init() {
-	let elements = document.querySelectorAll(`[data-show],[data-hide]`);
-	initElements(elements)
+	let elements = document.querySelectorAll(`[show],[hide]`);
+	initElements(elements);
 }
 
 function initElements(elements) {
 	for (let el of elements)
-		initElement(el)
+		initElement(el);
 }
 
 function initElement(el) {
@@ -35,85 +27,39 @@ function initElement(el) {
 	el.addEventListener("change", selectShowHideEle);
 	el.addEventListener("click", clickShowHideEle);
 }
-// CoCreateInit.register('CoCreateConditionalLogic', window, window.init);
-
-observer.init({
-	name: 'CoCreateConditionalLogic',
-	observe: ['addedNodes'],
-	target: '[data-show], [data-hide]',
-	callback: function(mutation) {
-		initElement(mutation.target)
-	}
-})
-
-//. upgrade by jin (using document event)
-// function init() {
-
-// 	const selector = "[data-show],[data-hide]";
-// 	document.removeEventListener("change", function(event) {
-// 		const target = event.target.closest(selector);
-// 		if (target) {
-// 			selectShowHideEle(event)
-// 		}
-// 	});
-
-// 	document.removeEventListener("click", function(event) {
-// 		const target = event.target.closest(selector);
-// 		if (target) {
-// 			clickShowHideEle(event)
-// 		}
-// 	});
-
-// 	document.addEventListener("change", function(event) {
-// 		const target = event.target.closest(selector);
-// 		if (target) {
-// 			selectShowHideEle(event)
-// 		}
-// 	});
-
-// 		document.addEventListener("click", function(event) {
-// 		const target = event.target.closest(selector);
-// 		if (target) {
-// 			clickShowHideEle(event)
-// 		}
-// 	});
-// }
 
 function selectShowHideEle(e) {
-	console.log(this, 'select');
-	e.preventDefault()
+	e.preventDefault();
 	var select = this;
 	if (typeof select.options != 'undefined')
-		for (var i = 0, len = select.options.length; i < len; i++) {
-			var opt = select.options[i];
-			var value = opt.value
-			if (value != '') {
-				var show = opt.dataset.show
-				// var show_class = opt.dataset.showClass
-				if (typeof show != 'undefined') {
+	for (var i = 0, len = select.options.length; i < len; i++) {
+		var opt = select.options[i];
+		var value = opt.value;
+		if (value != '') {
+			var show = opt.getAttribute('show');
+			if (typeof show != 'undefined') {
+				for (let el of document.querySelectorAll(show))
+					el.classList.add('hidden');
+				if (opt.selected === true) {
 					for (let el of document.querySelectorAll(show))
-						el.classList.add('hidden');
-					if (opt.selected === true) {
-						for (let el of document.querySelectorAll(show))
-							el.classList.remove('hidden');
-					}
+						el.classList.remove('hidden');
 				}
-			} //end value is not empty
-		} //end for
+			}
+		}
+	}
 }
 
 function clickShowHideEle(e) {
-	console.log(this, 'click');
-	var show = this.dataset.show;
-	var hide = this.dataset.hide;
+	var show = this.getAttribute('show');
+	var hide = this.getAttribute('hide');
 	let tagName = this.tagName.toLowerCase();
 
 	if (tagName == 'input' && this.getAttribute("type").toLowerCase() == 'radio') {
-		let name = this.getAttribute("name")
+		let name = this.getAttribute("name");
 		let radios = document.querySelectorAll(tagName + '[name="' + name + '"]');
 		for (let radio of radios) {
 
-			show = radio.dataset.show;
+			show = radio.getAttribute('show');
 
 			for (let el of document.querySelectorAll(show)) {
 				el.classList.add('hidden');
@@ -124,7 +70,6 @@ function clickShowHideEle(e) {
 					el.classList.remove('hidden');
 			}
 		}
-
 	}
 	else {
 
@@ -145,11 +90,25 @@ function clickShowHideEle(e) {
 					break;
 				}
 			}
-
 			if (!existEqual) el.classList.add('hidden');
 		}
 	}
 }
+
+document.addEventListener('fetchedTemplate', () => {
+	init();
+});
+
+init();
+
+observer.init({
+	name: 'CoCreateConditionalLogic',
+	observe: ['addedNodes'],
+	target: '[show], [hide]',
+	callback: function(mutation) {
+		initElement(mutation.target);
+	}
+});
 
 const CoCreateConditionalLogic = { initElements, selectShowHideEle, clickShowHideEle };
 export default CoCreateConditionalLogic;
