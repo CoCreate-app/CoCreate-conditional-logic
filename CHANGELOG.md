@@ -1,3 +1,12 @@
+## [1.1.2](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.1.1...v1.1.2) (2021-08-02)
+
+
+### Bug Fixes
+
+* remove data- from attributes ([e694f79](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/e694f79540af2f40feeec37100dcf07b5fb70879))
+* removed data- from show and hde attributes ([421a4b2](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/421a4b2af001ce003091810293b317beeb29822f))
+* update data-fullscreen to fullscreen ([fea4ecc](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/fea4ecc721c3a1f262e0fd067e15ee733bfd3d5d))
+
 ## [1.1.1](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.1.0...v1.1.1) (2021-07-28)
 
 
