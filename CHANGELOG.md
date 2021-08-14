@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.1.2...v1.1.3) (2021-08-14)
+
+
+### Bug Fixes
+
+* replace data-transform with toggle ([1631e51](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/1631e51a8a699d607fa8f419007fba6ce5b415e7))
+
 ## [1.1.2](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.1.1...v1.1.2) (2021-08-02)
 
 
