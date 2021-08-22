@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.1.5...v1.1.6) (2021-08-22)
+
+
+### Bug Fixes
+
+* removed data- from main-content, clone, filter-value_type ([e422a61](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/e422a61da70e6ee3569e85ac8b2be079d93ee64f))
+
 ## [1.1.5](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.1.4...v1.1.5) (2021-08-22)
 
 
