@@ -1,3 +1,10 @@
+## [1.1.12](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.1.11...v1.1.12) (2021-09-09)
+
+
+### Bug Fixes
+
+* CoCreate.config directory, path, name and  public ([0379b56](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/0379b56e19f0eee5118c79ff70e27993f6af3706))
+
 ## [1.1.11](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.1.10...v1.1.11) (2021-09-08)
 
 
