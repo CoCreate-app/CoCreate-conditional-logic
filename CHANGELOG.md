@@ -1,3 +1,10 @@
+## [1.1.16](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.1.15...v1.1.16) (2021-09-12)
+
+
+### Bug Fixes
+
+* update sidenav to use resize and toggle ([4cc9be6](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/4cc9be6db13de56ef8352debdb27cf23e524d75c))
+
 ## [1.1.15](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.1.14...v1.1.15) (2021-09-09)
 
 
