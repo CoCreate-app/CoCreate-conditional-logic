@@ -1,3 +1,10 @@
+## [1.1.18](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.1.17...v1.1.18) (2021-09-14)
+
+
+### Bug Fixes
+
+* add cocreate.app to domains ([2fa630b](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/2fa630b041d6da6ecf6ee89cf38556248641719c))
+
 ## [1.1.17](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.1.16...v1.1.17) (2021-09-13)
 
 
