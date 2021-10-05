@@ -1,3 +1,11 @@
+## [1.1.26](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.1.25...v1.1.26) (2021-10-05)
+
+
+### Bug Fixes
+
+* update dependencies ([10cb135](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/10cb135a345487cef14c3eb44c48e3fed12fc1f4))
+* website_id in CoCreate.config ([38b750f](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/38b750fde6688037d04797a9c6e9458ac21baff6))
+
 ## [1.1.25](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.1.24...v1.1.25) (2021-10-04)
 
 
