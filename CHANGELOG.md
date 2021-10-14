@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.1.29...v1.2.0) (2021-10-14)
+
+
+### Bug Fixes
+
+* updated dependencies ([40531bd](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/40531bd7b22011d0f041d3c868c17df92378c93a))
+
+
+### Features
+
+* supports using as a action. action name is showHide ([5afc8a3](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/5afc8a327ffa3d5f6e9276d69989f2795045aa69))
+
 ## [1.1.29](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.1.28...v1.1.29) (2021-10-13)
 
 
