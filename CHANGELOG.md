@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.2...v1.2.3) (2021-10-16)
+
+
+### Bug Fixes
+
+* update socket package to fix bug in docs ([c8992cf](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/c8992cf5e992a722eacc08a9426ff1c6f1d1aad2))
+
 ## [1.2.2](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.1...v1.2.2) (2021-10-15)
 
 
