@@ -1,3 +1,10 @@
+## [1.2.11](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.10...v1.2.11) (2021-11-07)
+
+
+### Bug Fixes
+
+* add init() directly above export default to fix bug in firefox ([35a2642](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/35a264273aab555115838eeca43f1ed6e38a57cd))
+
 ## [1.2.10](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.9...v1.2.10) (2021-11-06)
 
 
