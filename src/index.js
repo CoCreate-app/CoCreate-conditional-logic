@@ -114,8 +114,6 @@ document.addEventListener('fetchedTemplate', () => {
 	init();
 });
 
-init();
-
 observer.init({
 	name: 'CoCreateConditionalLogic',
 	observe: ['addedNodes'],
@@ -133,6 +131,7 @@ CoCreate.action.init({
 	}
 });
 
+init();
 
 const CoCreateConditionalLogic = { initElements, selectShowHideEle, clickShowHideEle };
 export default CoCreateConditionalLogic;
