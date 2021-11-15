@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/conditional-logic",
-  "version": "1.2.11",
+  "version": "1.2.12",
   "description": "Simple JS component show & hide elements conditionally with inputs,checkbox,radio,btn etc.Great for creating tabs, accordions, dynamic forms, etc. Easy Configuration using HTML5 data attributes and/or JavaScript API.",
   "keywords": [
     "conditional-logic",
