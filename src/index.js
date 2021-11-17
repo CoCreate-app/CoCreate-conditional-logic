@@ -5,7 +5,8 @@
  * https://github.com/CoCreate-app/CoCreate-conditional-logic/blob/master/LICENSE
  */
 /*globals CustomEvent, CoCreate*/
-import observer from '@cocreate/observer'
+import observer from '@cocreate/observer';
+import action from '@cocreate/action';
 
 function init() {
 	let elements = document.querySelectorAll(`[show],[hide]`);
@@ -123,7 +124,7 @@ observer.init({
 	}
 });
 
-CoCreate.action.init({
+action.init({
 	action: "showHide",
 	endEvent: "showHide",
 	callback: (btn, data) => {
