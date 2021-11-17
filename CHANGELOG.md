@@ -1,3 +1,10 @@
+## [1.2.15](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.14...v1.2.15) (2021-11-17)
+
+
+### Bug Fixes
+
+* added @cocreate/action ([5a5c4e8](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/5a5c4e8e44ed200e6ab189eb9d202ebe3e19ca0e))
+
 ## [1.2.14](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.13...v1.2.14) (2021-11-16)
 
 
