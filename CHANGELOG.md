@@ -1,3 +1,11 @@
+## [1.2.21](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.20...v1.2.21) (2021-11-26)
+
+
+### Bug Fixes
+
+* docs sidenav width ([22d7d78](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/22d7d78a3a9e06a31a3a5f0fc5114d2ccda437e4))
+* updated action dependency to actions ([c41b7c2](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/c41b7c2a497436550903ef947af036e925fd81c0))
+
 ## [1.2.20](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.19...v1.2.20) (2021-11-26)
 
 
