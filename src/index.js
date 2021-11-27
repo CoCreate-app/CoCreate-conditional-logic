@@ -6,7 +6,7 @@
  */
 /*globals CustomEvent, CoCreate*/
 import observer from '@cocreate/observer';
-import action from '@cocreate/action';
+import action from '@cocreate/actions';
 
 function init() {
 	let elements = document.querySelectorAll(`[show],[hide]`);
