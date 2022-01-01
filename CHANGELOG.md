@@ -1,3 +1,10 @@
+## [1.2.27](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.26...v1.2.27) (2022-01-01)
+
+
+### Bug Fixes
+
+* get-value attribute value now supports a selector added # to all values currently in get-value attributes ([bd2a190](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/bd2a190abaa8ca2d2fded65bc214b512bbd8df37))
+
 ## [1.2.26](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.25...v1.2.26) (2021-12-15)
 
 
