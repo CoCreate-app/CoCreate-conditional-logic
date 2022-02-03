@@ -3,7 +3,7 @@
   <head>
 	<title>Conditional Logic | CoCreateJS</title>
 	<!-- CoCreate Favicon -->
-    <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16" parse="true">
+    <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
   </head>
   <body>
 	  
@@ -16,14 +16,14 @@
     <div hide='#testdiv,#div2' show='.testdiv,.div2'>
         <i class="fa fa-plus-circle"></i>
     </div>
-    <div id='testdiv' class="hidden testdiv"> Only SHOW </div>
-    <div id="div2" class="hidden div2"> Only SHOW2</div>
+    <div id='testdiv' hidden class=" testdiv"> Only SHOW </div>
+    <div id="div2" hidden class=" div2"> Only SHOW2</div>
     			
     <h5 style='color:blue'>show</h5>
     <div show='#showdiv' hide='#hidediv'>
     <i class="fas fa-plus-circle" toggle="fa-minus-circle, fa-plus-circle"></i>
     </div>
-    <div id='showdiv' class="hidden"> Only SHOW </div>
+    <div id='showdiv' hidden> Only SHOW </div>
     <div id='hidediv'> TAG HIDE</div>
     
     <h6 style='color:blue'>2 example SHOW (2 elements by ID) HIDE (1 element by ID)</h6>
@@ -32,7 +32,7 @@
     </div>
     <div id='showdiv1'> Only SHOW 1</div>
     <h3 id='show2'> only show 2</h3>
-    <div id='hidediv1'  class="hidden"> TAG HIDE</div>
+    <div id='hidediv1'  hidden> TAG HIDE</div>
     
     <h6 style='color:blue'>2 example SHOW (2 elements by class) HIDE (3 element by class)</h6>
     <div  show='.my_show' hide='.my_hide'>
@@ -41,17 +41,17 @@
     <div class='my_show'> Only SHOW 1</div>
     
     <h3 class='my_show'> only show 2</h3>
-    <div class='my_hide'  class="hidden"> TAG HIDE</div>
-    <h4 class='my_hide'  class="hidden"> Tag hide 2</h4>
-    <h3 class='my_hide'  class="hidden"></h3> Tag hide 3</h3>
+    <div class='my_hide'  hidden> TAG HIDE</div>
+    <h4 class='my_hide'  hidden> Tag hide 2</h4>
+    <h3 class='my_hide'  hidden></h3> Tag hide 3</h3>
     
     <h6 style='color:blue'>3  example <b>CHECKBOX</b> SHOW (2 elements by class) HIDE (3 element by class)</h6>
     <input type='checkbox' checked="true"  show='.my_show_check' hide='.my_hide_check'/>
     <div class='my_show_check'> Only SHOW 1</div>
     <h3 class='my_show_check'> only show 2</h3>
-    <div class='my_hide_check' class="hidden"> TAG HIDE</div>
-    <h4 class='my_hide_check' class="hidden"> Tag hide 2</h4>
-    <h3 class='my_hide_check' class="hidden"> Tag hide 3</h3>
+    <div class='my_hide_check' hidden> TAG HIDE</div>
+    <h4 class='my_hide_check' hidden> Tag hide 2</h4>
+    <h3 class='my_hide_check' hidden> Tag hide 3</h3>
     
     <h6 style='color:blue'>4 example  RADIOBUTTON</h6>
     <div class="section">
@@ -71,9 +71,9 @@
         </div>
     </div><!-- end section -->
     
-    <div id='ctr_personal1' class="hidden"> PERSONAL</div>
+    <div id='ctr_personal1' hidden> PERSONAL</div>
     <div id='ctr_business1' > BUSINESS</div>
-    <div id='ctr_corporate1' class="hidden"> CORPORATE</div>
+    <div id='ctr_corporate1' hidden> CORPORATE</div>
     
     <h6 style='color:blue'>5 example  RADIOBUTTON (show MULTIPLE)</h6>
     <div class="section">
@@ -93,12 +93,12 @@
         </div>
     </div><!-- end section -->
     
-    <div id='ctr_personal' class="hidden"> PERSONAL</div>
+    <div id='ctr_personal' hidden> PERSONAL</div>
     <div id='ctr_business' > BUSINESS</div>
     <div id='other_business' > other_business</div>
-    <div class='ctr_corporate' class="hidden"> CORPORATE 1</div>
-    <div class='ctr_corporate' class="hidden"> CORPORATE 2</div>
-    <div class='ctr_corporate' class="hidden"> CORPORATE 3 </div>
+    <div class='ctr_corporate' hidden> CORPORATE 1</div>
+    <div class='ctr_corporate' hidden> CORPORATE 2</div>
+    <div class='ctr_corporate' hidden> CORPORATE 3 </div>
     
     <h6 style='color:blue'>6 example  SELECT</h6>
     	<select >
@@ -108,9 +108,9 @@
             <option value="Other"  show="#ctr_other">Other</option>
        	</select>
     <div id='ctr_creditcard' > Credicard</div>
-    <div class='ctr_check' class="hidden"> CHECK</div>
-    <div class='ctr_check' class="hidden"> CHECK2</div>
-    <div id='ctr_other' class="hidden"> OTHER</div>
+    <div class='ctr_check' hidden> CHECK</div>
+    <div class='ctr_check' hidden> CHECK2</div>
+    <div id='ctr_other' hidden> OTHER</div>
     
     <h6 style='color:blue'>7 example  SELECT (show multiples)</h6>
     <select  multiple="true">
@@ -121,11 +121,11 @@
        </select>
     <div id='ctr_creditcard1' > Credicard</div>
     <div id='ctr_creditcard2' > Credicard2</div>
-    <div class='ctr_check1' class="hidden"> CHECK</div>
-    <div class='ctr_check1' class="hidden"> CHECK2</div>
-    <div class='ctr_check1' class="hidden"> CHECK3</div>
-    <div class='ctr_check1' class="hidden"> CHECK4</div>
-    <div id='ctr_other1' class="hidden"> OTHER</div>
+    <div class='ctr_check1' hidden> CHECK</div>
+    <div class='ctr_check1' hidden> CHECK2</div>
+    <div class='ctr_check1' hidden> CHECK3</div>
+    <div class='ctr_check1' hidden> CHECK4</div>
+    <div id='ctr_other1' hidden> OTHER</div>
 
     <div hide='iframe;,#testdiv1' show='iframe;#testdiv1,#testdiv1'>
         <div class="test">click me</div>

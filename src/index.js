@@ -48,10 +48,10 @@ function selectShowHideEle(e) {
 			var show = opt.getAttribute('show');
 			if (typeof show != 'undefined') {
 				for (let el of queryFrameSelectorAll(show))
-					el.classList.add('hidden');
+					el.setAttribute('hidden', '');
 				if (opt.selected === true) {
 					for (let el of queryFrameSelectorAll(show))
-						el.classList.remove('hidden');
+						el.removeAttribute('hidden');
 				}
 			}
 		}
@@ -74,12 +74,12 @@ function clickShowHideEle(e) {
 			show = radio.getAttribute('show');
 
 			for (let el of queryFrameSelectorAll(show)) {
-				el.classList.add('hidden');
+				el.setAttribute('hidden', '');
 			}
 
 			if (radio.checked) {
 				for (let el of queryFrameSelectorAll(show))
-					el.classList.remove('hidden');
+					el.removeAttribute('hidden');
 			}
 		}
 	}
@@ -88,8 +88,8 @@ function clickShowHideEle(e) {
 		let updated_els = [];
 
 		for (let el of queryFrameSelectorAll(show)) {
-			if (el.classList.contains('hidden')) {
-				el.classList.remove('hidden');
+			if (el.hasAttributes('hidden')) {
+				el.removeAttribute('hidden');
 				updated_els.push(el);
 			}
 		}
@@ -102,7 +102,7 @@ function clickShowHideEle(e) {
 					break;
 				}
 			}
-			if (!existEqual) el.classList.add('hidden');
+			if (!existEqual) el.setAttribute('hidden', '');
 		}
 	}
 	
