@@ -1,3 +1,10 @@
+## [1.2.30](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.29...v1.2.30) (2022-02-03)
+
+
+### Bug Fixes
+
+* replaced show and hide class hidden with attribute hidden ([d54258f](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/d54258fd85aa83c5701e71013104a774af086961))
+
 ## [1.2.29](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.28...v1.2.29) (2022-02-03)
 
 
