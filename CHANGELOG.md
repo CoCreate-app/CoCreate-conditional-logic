@@ -1,3 +1,10 @@
+## [1.2.29](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.28...v1.2.29) (2022-02-03)
+
+
+### Bug Fixes
+
+* added @cocreate/utils for queryFrameSelectorAll ([6118e91](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/6118e91b1828e72240398436307d81f2d8db4ffe))
+
 ## [1.2.28](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.27...v1.2.28) (2022-02-01)
 
 
