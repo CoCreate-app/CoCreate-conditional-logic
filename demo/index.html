@@ -3,7 +3,7 @@
   <head>
 	<title>Conditional Logic | CoCreateJS</title>
 	<!-- CoCreate Favicon -->
-    <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
+    <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16" parse="true">
   </head>
   <body>
 	  
@@ -127,6 +127,12 @@
     <div class='ctr_check1' class="hidden"> CHECK4</div>
     <div id='ctr_other1' class="hidden"> OTHER</div>
 
+    <div hide='iframe;,#testdiv1' show='iframe;#testdiv1,#testdiv1'>
+        <div class="test">click me</div>
+    </div>
+    
+    <iframe srcDoc="<div id='testdiv1'> will toggle </div>"></iframe>
+    <div id='testdiv1' class=""> will toggle </div>
 
      
     <!--<script src="../dist/CoCreate-conditional-logic.js"></script>-->
