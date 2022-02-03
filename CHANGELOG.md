@@ -1,3 +1,10 @@
+## [1.2.31](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.30...v1.2.31) (2022-02-03)
+
+
+### Bug Fixes
+
+* typo hasAttributes to hasAttribute ([c72c65d](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/c72c65d81c5756774f263cdfb8c0e83ee1680d28))
+
 ## [1.2.30](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.29...v1.2.30) (2022-02-03)
 
 
