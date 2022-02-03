@@ -88,7 +88,7 @@ function clickShowHideEle(e) {
 		let updated_els = [];
 
 		for (let el of queryFrameSelectorAll(show)) {
-			if (el.hasAttributes('hidden')) {
+			if (el.hasAttribute('hidden')) {
 				el.removeAttribute('hidden');
 				updated_els.push(el);
 			}
