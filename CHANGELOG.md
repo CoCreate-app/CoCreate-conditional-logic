@@ -1,3 +1,10 @@
+## [1.2.33](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.32...v1.2.33) (2022-02-10)
+
+
+### Bug Fixes
+
+* bump dependencies ([32bcb35](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/32bcb35da3c6964c24d9d1f537dff66abfb6f5ca))
+
 ## [1.2.32](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.31...v1.2.32) (2022-02-07)
 
 
