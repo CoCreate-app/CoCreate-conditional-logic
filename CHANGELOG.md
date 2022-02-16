@@ -1,3 +1,10 @@
+## [1.2.34](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.33...v1.2.34) (2022-02-16)
+
+
+### Bug Fixes
+
+* update action param to name ([cd9cdb3](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/cd9cdb37d07bf84976357f0e21ea25850f288311))
+
 ## [1.2.33](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.32...v1.2.33) (2022-02-10)
 
 
