@@ -126,7 +126,7 @@ observer.init({
 });
 
 action.init({
-	action: "showHide",
+	name: "showHide",
 	endEvent: "showHide",
 	callback: (btn, data) => {
 		clickShowHideEle(btn);
