@@ -1,3 +1,10 @@
+## [1.2.37](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.36...v1.2.37) (2022-05-06)
+
+
+### Bug Fixes
+
+* update config organization_Id to organization_id ([a9719b4](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/a9719b4144e9f89a65a012245875d18a8c90ffb6))
+
 ## [1.2.36](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.35...v1.2.36) (2022-02-24)
 
 
