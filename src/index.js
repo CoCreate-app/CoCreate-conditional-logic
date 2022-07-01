@@ -7,7 +7,7 @@
 /*globals CustomEvent, CoCreate*/
 import observer from '@cocreate/observer';
 import action from '@cocreate/actions';
-import {queryFrameSelectorAll} from '@cocreate/utils';
+import {queryDocumentSelectorAll} from '@cocreate/utils';
 
 function init() {
 	let elements = document.querySelectorAll(`[show],[hide]`);
@@ -47,10 +47,10 @@ function selectShowHideEle(e) {
 		if (value != '') {
 			var show = opt.getAttribute('show');
 			if (typeof show != 'undefined') {
-				for (let el of queryFrameSelectorAll(show))
+				for (let el of queryDocumentSelectorAll(show))
 					el.setAttribute('hidden', '');
 				if (opt.selected === true) {
-					for (let el of queryFrameSelectorAll(show))
+					for (let el of queryDocumentSelectorAll(show))
 						el.removeAttribute('hidden');
 				}
 			}
@@ -73,12 +73,12 @@ function clickShowHideEle(e) {
 
 			show = radio.getAttribute('show');
 
-			for (let el of queryFrameSelectorAll(show)) {
+			for (let el of queryDocumentSelectorAll(show)) {
 				el.setAttribute('hidden', '');
 			}
 
 			if (radio.checked) {
-				for (let el of queryFrameSelectorAll(show))
+				for (let el of queryDocumentSelectorAll(show))
 					el.removeAttribute('hidden');
 			}
 		}
@@ -87,14 +87,14 @@ function clickShowHideEle(e) {
 
 		let updated_els = [];
 
-		for (let el of queryFrameSelectorAll(show)) {
+		for (let el of queryDocumentSelectorAll(show)) {
 			if (el.hasAttribute('hidden')) {
 				el.removeAttribute('hidden');
 				updated_els.push(el);
 			}
 		}
 
-		for (let el of queryFrameSelectorAll(hide)) {
+		for (let el of queryDocumentSelectorAll(hide)) {
 			let existEqual = false;
 			for (let uel of updated_els) {
 				if (el.isEqualNode(uel)) {
