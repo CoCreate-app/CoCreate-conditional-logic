@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.41...v1.3.0) (2022-07-03)
+
+
+### Features
+
+* queryDocumentSelectorAll - ability to query iframes and parent of iframes ([f8b070a](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/f8b070a2da6f50cefc2794e783f917a8a7b4f7f7))
+
 ## [1.2.41](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.2.40...v1.2.41) (2022-06-18)
 
 
