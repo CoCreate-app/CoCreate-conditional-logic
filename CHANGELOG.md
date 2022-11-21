@@ -1,3 +1,10 @@
+## [1.3.12](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.3.11...v1.3.12) (2022-11-21)
+
+
+### Bug Fixes
+
+* replaced document_id with document._id ([108adce](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/108adce6e50649635a2abd87a68564c5ad84c3ac))
+
 ## [1.3.11](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.3.10...v1.3.11) (2022-11-21)
 
 
