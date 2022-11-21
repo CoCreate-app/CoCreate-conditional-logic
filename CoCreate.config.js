@@ -10,7 +10,7 @@ module.exports = {
             "collection": "files",
             "document_id": "6019bfa94eea0817df303b0c",
             "key": "src",
-            "data":{
+            "document": {
                 "name": "index.html",
                 "path": "/docs/conditional-logic/index.html",
                 "domains": [
