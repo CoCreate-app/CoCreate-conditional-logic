@@ -1,3 +1,10 @@
+## [1.3.14](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.3.13...v1.3.14) (2022-11-22)
+
+
+### Bug Fixes
+
+* apply src: {{source}} to CoCreate.config ([733ce47](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/733ce4772a73376a0440ba8b5d855f5b7f2350b8))
+
 ## [1.3.13](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.3.12...v1.3.13) (2022-11-21)
 
 
