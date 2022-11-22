@@ -4,15 +4,15 @@ module.exports = {
         "organization_id": "5ff747727005da1c272740ab",
         "host": "general.cocreate.app"
     },
-    
-    "sources": [{
+    "sources": [
+        {
             "entry": "./docs/index.html",
             "collection": "files",
-            "document_id": "6019bfa94eea0817df303b0c",
-            "key": "src",
             "document": {
+                "_id": "6019bfa94eea0817df303b0c",
                 "name": "index.html",
                 "path": "/docs/conditional-logic/index.html",
+                "src": "{{source}}",
                 "domains": [
                     "*",
                     "general.cocreate.app"
@@ -23,21 +23,5 @@ module.exports = {
                 "website_id": "5ffbceb7f11d2d00103c4535"
             }
         }
-    ],
-
-	"extract": {
-		"directory": "./src/",
-		"extensions": [
-			"js",
-			"css",
-			"html"
-		],
-		"ignores": [
-			"node_modules",
-			"vendor",
-			"bower_components",
-			"archive"
-		]
-	}
+    ]
 }
-
