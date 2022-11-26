@@ -112,7 +112,7 @@ function clickShowHideEle(e) {
 
 }
 
-document.addEventListener('fetchedTemplate', () => {
+document.addEventListener('fetchedData', () => {
 	init();
 });
 
