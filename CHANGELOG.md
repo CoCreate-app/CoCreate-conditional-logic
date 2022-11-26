@@ -1,3 +1,11 @@
+## [1.3.19](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.3.18...v1.3.19) (2022-11-26)
+
+
+### Bug Fixes
+
+* bump dependencies ([1d80ad3](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/1d80ad3f480674a9b869f99909e0187ee06b41da))
+* renamed event fetchedTemplate to fetchedData ([840970a](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/840970a26e5cab98645c4517900668d986495c1b))
+
 ## [1.3.18](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.3.17...v1.3.18) (2022-11-25)
 
 
