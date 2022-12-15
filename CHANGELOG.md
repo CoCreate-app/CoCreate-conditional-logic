@@ -1,3 +1,10 @@
+## [1.3.33](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.3.32...v1.3.33) (2022-12-15)
+
+
+### Bug Fixes
+
+* add missing dev dependency style-loader ([b419da7](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/b419da7dc81934f32491574209738ffd967b64fe))
+
 ## [1.3.32](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.3.31...v1.3.32) (2022-12-13)
 
 
