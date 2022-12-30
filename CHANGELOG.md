@@ -1,3 +1,10 @@
+## [1.3.42](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.3.41...v1.3.42) (2022-12-30)
+
+
+### Bug Fixes
+
+* update config sources to use template  braces with entry on src ([7fdac61](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/7fdac615cd73296cc4ec856cd56e8aef6ba25622))
+
 ## [1.3.41](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.3.40...v1.3.41) (2022-12-29)
 
 
