@@ -1,3 +1,10 @@
+## [1.3.44](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.3.43...v1.3.44) (2023-01-01)
+
+
+### Bug Fixes
+
+* docs sanbox overflow ([3403491](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/34034913ffb0cd0d80eb8ead1ff4ab05afdf4b8f))
+
 ## [1.3.43](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.3.42...v1.3.43) (2022-12-31)
 
 
