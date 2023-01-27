@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/conditional-logic",
-  "version": "1.3.49",
+  "version": "1.3.50",
   "description": "Simple JS component show & hide elements conditionally with inputs,checkbox,radio,btn etc.Great for creating tabs, accordions, dynamic forms, etc. Easy Configuration using HTML5 data attributes and/or JavaScript API.",
   "keywords": [
     "conditional-logic",
@@ -20,7 +20,9 @@
     "html5-framework",
     "javascript-framework"
   ],
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "npx webpack --config webpack.config.js",
     "build": "NODE_ENV=production npx webpack --config webpack.config.js",
