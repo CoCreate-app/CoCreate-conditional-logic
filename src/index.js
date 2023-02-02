@@ -9,6 +9,7 @@ import observer from '@cocreate/observer';
 import action from '@cocreate/actions';
 import {queryDocumentSelectorAll} from '@cocreate/utils';
 
+// ToDo: update to listen to document events, find closest action return
 function init() {
 	let elements = document.querySelectorAll(`[show],[hide]`);
 	initElements(elements);
