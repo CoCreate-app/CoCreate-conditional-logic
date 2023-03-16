@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.3.54...v1.4.0) (2023-03-16)
+
+
+### Features
+
+* replaced get-value and set-value with a super charged version of CoCreate-events ([15acd45](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/15acd45b6aa7c687eaa3e2a2021da7fd54d9e5fb))
+
 ## [1.3.54](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.3.53...v1.3.54) (2023-02-01)
 
 
