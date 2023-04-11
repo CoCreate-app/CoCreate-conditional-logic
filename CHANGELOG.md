@@ -1,3 +1,10 @@
+## [1.4.4](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.4.3...v1.4.4) (2023-04-11)
+
+
+### Bug Fixes
+
+* renamed domains to hosts ([1d41c48](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/1d41c487e79314fa4df3cd24d69311400c559701))
+
 ## [1.4.3](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.4.2...v1.4.3) (2023-03-30)
 
 
