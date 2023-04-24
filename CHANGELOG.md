@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.4.6...v1.5.0) (2023-04-24)
+
+
+### Features
+
+* added pwa manifest ([ee5a1e6](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/ee5a1e616b3178a9b84c24627efdc1b3fab58d7c))
+
 ## [1.4.6](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.4.5...v1.4.6) (2023-04-11)
 
 
