@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.0...v1.5.1) (2023-04-24)
+
+
+### Bug Fixes
+
+* removed uglifyjs-webpack-plugin ([242ccaa](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/242ccaa3be02cc43fba9b62a3518f22d87273638))
+
 # [1.5.0](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.4.6...v1.5.0) (2023-04-24)
 
 
