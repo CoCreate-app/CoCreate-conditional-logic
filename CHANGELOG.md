@@ -1,3 +1,10 @@
+## [1.5.4](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.3...v1.5.4) (2023-04-24)
+
+
+### Bug Fixes
+
+* updated worrkflows to v3 and node version 16 ([e8e871d](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/e8e871db49401fd7c19925fee47f23c8105cd3e3))
+
 ## [1.5.3](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.2...v1.5.3) (2023-04-24)
 
 
