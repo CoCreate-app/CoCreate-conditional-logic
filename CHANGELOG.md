@@ -1,3 +1,13 @@
+## [1.5.5](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.4...v1.5.5) (2023-04-30)
+
+
+### Bug Fixes
+
+* fullscreen target updated to fullscreen fullscreen-target ([cd85901](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/cd85901ba7997db0e1b1005d14768781479cc331))
+* package-lock.json and pnpm-lock.yaml added to .gitignore ([041174f](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/041174f13b823f17bd329901a653cdb9ae635980))
+* removed app.js ([91bc5fb](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/91bc5fb12d30f12c37b185265605632b4b4c6558))
+* removed toogle fullscreen icons. now using css content ([255b630](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/255b630b2a4bf0e2a73236276598fd6e921f8b25))
+
 ## [1.5.4](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.3...v1.5.4) (2023-04-24)
 
 
