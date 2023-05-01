@@ -1,3 +1,10 @@
+## [1.5.7](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.6...v1.5.7) (2023-05-01)
+
+
+### Bug Fixes
+
+* update manifest.json to manifest.webmanifest ([d0dc1a3](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/d0dc1a351d583191b3264e809fed58925230454a))
+
 ## [1.5.6](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.5...v1.5.6) (2023-05-01)
 
 
