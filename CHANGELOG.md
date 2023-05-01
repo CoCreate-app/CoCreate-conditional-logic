@@ -1,3 +1,10 @@
+## [1.5.6](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.5...v1.5.6) (2023-05-01)
+
+
+### Bug Fixes
+
+* replace fontawesome with svg ([a2a0c01](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/a2a0c0196e5e277f5df56a87c2f3a77b78e87b75))
+
 ## [1.5.5](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.4...v1.5.5) (2023-04-30)
 
 
