@@ -1,3 +1,10 @@
+## [1.5.9](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.8...v1.5.9) (2023-05-10)
+
+
+### Bug Fixes
+
+* apikey renamed to key ([62b7ad5](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/62b7ad5a401bd5e08fa0937cdd5d261f9e5734f2))
+
 ## [1.5.8](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.7...v1.5.8) (2023-05-06)
 
 
