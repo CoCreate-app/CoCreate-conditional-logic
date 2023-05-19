@@ -1,3 +1,10 @@
+## [1.5.10](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.9...v1.5.10) (2023-05-19)
+
+
+### Bug Fixes
+
+* update packages to latest version. This commit updates various packages in the dependencies section of the package.json file to their latest published versions, thereby fixing multiple bugs and improving overall performance. ([816e5dc](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/816e5dc46ae790927d473f96aee2c10cb00fdddd))
+
 ## [1.5.9](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.8...v1.5.9) (2023-05-10)
 
 
