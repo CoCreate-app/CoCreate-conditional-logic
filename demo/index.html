@@ -1,145 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	<title>Conditional Logic | CoCreateJS</title>
-	<!-- CoCreate Favicon -->
-    <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
-    <link rel="manifest" href="/manifest.webmanifest">
-  </head>
-  <body>
-	  
-    <h5 style='color:blue'>Toggle</h5>
-    
-    <div hide='#testdiv,#div2' show='.testdiv,.div2'>
-        <div class="test">click me</div>
-    </div>
+    <head>
+        <title>Conditional Logic | CoCreateJS</title>
+        <!-- CoCreate Favicon -->
+        <link
+            rel="icon"
+            href="https://cdn.cocreate.app/favicon.ico"
+            type="image/ico"
+            sizes="16x16" />
+        <link rel="manifest" href="/manifest.webmanifest" />
+    </head>
+    <body>
+        <h5 style="color: blue">Toggle</h5>
 
-    <div hide='#testdiv,#div2' show='.testdiv,.div2'>
-        <i class="fa fa-plus-circle"></i>
-    </div>
-    <div id='testdiv' hidden class=" testdiv"> Only SHOW </div>
-    <div id="div2" hidden class=" div2"> Only SHOW2</div>
-    			
-    <h5 style='color:blue'>show</h5>
-    <div show='#showdiv' hide='#hidediv'>
-    <i class="fas fa-plus-circle" toggle="fa-minus-circle, fa-plus-circle"></i>
-    </div>
-    <div id='showdiv' hidden> Only SHOW </div>
-    <div id='hidediv'> TAG HIDE</div>
-    
-    <h6 style='color:blue'>2 example SHOW (2 elements by ID) HIDE (1 element by ID)</h6>
-    <div  show='#showdiv1,#show2' hide='#hidediv1'>
-    <i class="fas fa-plus-circle" toggle="fa-minus-circle, fa-plus-circle"></i>
-    </div>
-    <div id='showdiv1'> Only SHOW 1</div>
-    <h3 id='show2'> only show 2</h3>
-    <div id='hidediv1'  hidden> TAG HIDE</div>
-    
-    <h6 style='color:blue'>2 example SHOW (2 elements by class) HIDE (3 element by class)</h6>
-    <div  show='.my_show' hide='.my_hide'>
-    	<i class="fas fa-plus-circle" toggle="fa-minus-circle, fa-plus-circle"></i>
-    </div>
-    <div class='my_show'> Only SHOW 1</div>
-    
-    <h3 class='my_show'> only show 2</h3>
-    <div class='my_hide'  hidden> TAG HIDE</div>
-    <h4 class='my_hide'  hidden> Tag hide 2</h4>
-    <h3 class='my_hide'  hidden></h3> Tag hide 3</h3>
-    
-    <h6 style='color:blue'>3  example <b>CHECKBOX</b> SHOW (2 elements by class) HIDE (3 element by class)</h6>
-    <input type='checkbox' checked="true"  show='.my_show_check' hide='.my_hide_check'/>
-    <div class='my_show_check'> Only SHOW 1</div>
-    <h3 class='my_show_check'> only show 2</h3>
-    <div class='my_hide_check' hidden> TAG HIDE</div>
-    <h4 class='my_hide_check' hidden> Tag hide 2</h4>
-    <h3 class='my_hide_check' hidden> Tag hide 3</h3>
-    
-    <h6 style='color:blue'>4 example  RADIOBUTTON</h6>
-    <div class="section">
-        <div class="option-group field">
-            <label class="option">
-                <input type="radio" name="pack" value=""  show="#ctr_personal1">
-                <span class="radio"></span> Personal
-            </label>
-            <label class="option">
-                <input type="radio" name="pack" value="" show="#ctr_business1" checked>
-                <span class="radio"></span>  Business                
-            </label>
-            <label class="option">
-                <input type="radio" name="pack" value=""  show="#ctr_corporate1">
-                <span class="radio"></span> Corporate               
-            </label>                                                                   
+        <div hide="#testdiv,#div2" show=".testdiv,.div2">
+            <div class="test">click me</div>
         </div>
-    </div><!-- end section -->
-    
-    <div id='ctr_personal1' hidden> PERSONAL</div>
-    <div id='ctr_business1' > BUSINESS</div>
-    <div id='ctr_corporate1' hidden> CORPORATE</div>
-    
-    <h6 style='color:blue'>5 example  RADIOBUTTON (show MULTIPLE)</h6>
-    <div class="section">
-        <div class="option-group field">
-            <label class="option">
-                <input type="radio" name="package" value=""  show="#ctr_personal">
-                <span class="radio"></span> Personal
-            </label>
-            <label class="option">
-                <input type="radio" name="package" value="" show="#ctr_business,#other_business" checked>
-                <span class="radio"></span>  Business                
-            </label>
-            <label class="option">
-                <input type="radio" name="package" value=""  show=".ctr_corporate">
-                <span class="radio"></span> Corporate               
-            </label>                                                                   
+
+        <div hide="#testdiv,#div2" show=".testdiv,.div2">
+            <i class="fa fa-plus-circle"></i>
         </div>
-    </div><!-- end section -->
-    
-    <div id='ctr_personal' hidden> PERSONAL</div>
-    <div id='ctr_business' > BUSINESS</div>
-    <div id='other_business' > other_business</div>
-    <div class='ctr_corporate' hidden> CORPORATE 1</div>
-    <div class='ctr_corporate' hidden> CORPORATE 2</div>
-    <div class='ctr_corporate' hidden> CORPORATE 3 </div>
-    
-    <h6 style='color:blue'>6 example  SELECT</h6>
-    	<select >
+        <div id="testdiv" hidden class="testdiv">Only SHOW</div>
+        <div id="div2" hidden class="div2">Only SHOW2</div>
+
+        <h5 style="color: blue">show</h5>
+        <div show="#showdiv" hide="#hidediv">
+            <i
+                class="fas fa-plus-circle"
+                toggle="fa-minus-circle, fa-plus-circle"></i>
+        </div>
+        <div id="showdiv" hidden>Only SHOW</div>
+        <div id="hidediv">TAG HIDE</div>
+
+        <h6 style="color: blue">
+            2 example SHOW (2 elements by ID) HIDE (1 element by ID)
+        </h6>
+        <div show="#showdiv1,#show2" hide="#hidediv1">
+            <i
+                class="fas fa-plus-circle"
+                toggle="fa-minus-circle, fa-plus-circle"></i>
+        </div>
+        <div id="showdiv1">Only SHOW 1</div>
+        <h3 id="show2">only show 2</h3>
+        <div id="hidediv1" hidden>TAG HIDE</div>
+
+        <h6 style="color: blue">
+            2 example SHOW (2 elements by class) HIDE (3 element by class)
+        </h6>
+        <div show=".my_show" hide=".my_hide">
+            <i
+                class="fas fa-plus-circle"
+                toggle="fa-minus-circle, fa-plus-circle"></i>
+        </div>
+        <div class="my_show">Only SHOW 1</div>
+
+        <h3 class="my_show">only show 2</h3>
+        <div class="my_hide" hidden>TAG HIDE</div>
+        <h4 class="my_hide" hidden>Tag hide 2</h4>
+        <h3 class="my_hide" hidden>Tag hide 3</h3>
+
+        <h6 style="color: blue">
+            3 example <b>CHECKBOX</b> SHOW (2 elements by class) HIDE (3 element
+            by class)
+        </h6>
+        <input
+            type="checkbox"
+            checked="true"
+            show=".my_show_check"
+            hide=".my_hide_check" />
+        <div class="my_show_check">Only SHOW 1</div>
+        <h3 class="my_show_check">only show 2</h3>
+        <div class="my_hide_check" hidden>TAG HIDE</div>
+        <h4 class="my_hide_check" hidden>Tag hide 2</h4>
+        <h3 class="my_hide_check" hidden>Tag hide 3</h3>
+
+        <h6 style="color: blue">4 example RADIOBUTTON</h6>
+        <div class="section">
+            <div class="option-group field">
+                <label class="option">
+                    <input
+                        type="radio"
+                        name="pack"
+                        value=""
+                        show="#ctr_personal1" />
+                    <span class="radio"></span> Personal
+                </label>
+                <label class="option">
+                    <input
+                        type="radio"
+                        name="pack"
+                        value=""
+                        show="#ctr_business1"
+                        checked />
+                    <span class="radio"></span> Business
+                </label>
+                <label class="option">
+                    <input
+                        type="radio"
+                        name="pack"
+                        value=""
+                        show="#ctr_corporate1" />
+                    <span class="radio"></span> Corporate
+                </label>
+            </div>
+        </div>
+        <!-- end section -->
+
+        <div id="ctr_personal1" hidden>PERSONAL</div>
+        <div id="ctr_business1">BUSINESS</div>
+        <div id="ctr_corporate1" hidden>CORPORATE</div>
+
+        <h6 style="color: blue">5 example RADIOBUTTON (show MULTIPLE)</h6>
+        <div class="section">
+            <div class="option-group field">
+                <label class="option">
+                    <input
+                        type="radio"
+                        name="package"
+                        value=""
+                        show="#ctr_personal" />
+                    <span class="radio"></span> Personal
+                </label>
+                <label class="option">
+                    <input
+                        type="radio"
+                        name="package"
+                        value=""
+                        show="#ctr_business,#other_business"
+                        checked />
+                    <span class="radio"></span> Business
+                </label>
+                <label class="option">
+                    <input
+                        type="radio"
+                        name="package"
+                        value=""
+                        show=".ctr_corporate" />
+                    <span class="radio"></span> Corporate
+                </label>
+            </div>
+        </div>
+        <!-- end section -->
+
+        <div id="ctr_personal" hidden>PERSONAL</div>
+        <div id="ctr_business">BUSINESS</div>
+        <div id="other_business">other_business</div>
+        <div class="ctr_corporate" hidden>CORPORATE 1</div>
+        <div class="ctr_corporate" hidden>CORPORATE 2</div>
+        <div class="ctr_corporate" hidden>CORPORATE 3</div>
+
+        <h6 style="color: blue">6 example SELECT</h6>
+        <select>
             <option value="">Payment Method</option>
-            <option value="Credit Card" show="#ctr_creditcard" selected>Credit Card</option>
-            <option value="Check"  show=".ctr_check">Check</option>
-            <option value="Other"  show="#ctr_other">Other</option>
-       	</select>
-    <div id='ctr_creditcard' > Credicard</div>
-    <div class='ctr_check' hidden> CHECK</div>
-    <div class='ctr_check' hidden> CHECK2</div>
-    <div id='ctr_other' hidden> OTHER</div>
-    
-    <h6 style='color:blue'>7 example  SELECT (show multiples)</h6>
-    <select  multiple="true">
-        <option value="">Payment Method</option>
-        <option value="Credit Card" show="#ctr_creditcard1,#ctr_creditcard2" selected>Credit Card</option>
-        <option value="Check"  show=".ctr_check1">Check</option>
-        <option value="Other"  show="#ctr_other1,#ctr_other2">Other</option>
-       </select>
-    <div id='ctr_creditcard1' > Credicard</div>
-    <div id='ctr_creditcard2' > Credicard2</div>
-    <div class='ctr_check1' hidden> CHECK</div>
-    <div class='ctr_check1' hidden> CHECK2</div>
-    <div class='ctr_check1' hidden> CHECK3</div>
-    <div class='ctr_check1' hidden> CHECK4</div>
-    <div id='ctr_other1' hidden> OTHER</div>
+            <option value="Credit Card" show="#ctr_creditcard" selected>
+                Credit Card
+            </option>
+            <option value="Check" show=".ctr_check">Check</option>
+            <option value="Other" show="#ctr_other">Other</option>
+        </select>
+        <div id="ctr_creditcard">Credicard</div>
+        <div class="ctr_check" hidden>CHECK</div>
+        <div class="ctr_check" hidden>CHECK2</div>
+        <div id="ctr_other" hidden>OTHER</div>
 
-    <div hide='iframe;,#testdiv1' show='iframe;,#testdiv1'>
-        <div class="test">click me</div>
-    </div>
-    
-    <iframe srcDoc="<div id='testdiv1'> will toggle </div>"></iframe>
-    <div id='testdiv1' class=""> will toggle </div>
+        <h6 style="color: blue">7 example SELECT (show multiples)</h6>
+        <select multiple="true">
+            <option value="">Payment Method</option>
+            <option
+                value="Credit Card"
+                show="#ctr_creditcard1,#ctr_creditcard2"
+                selected>
+                Credit Card
+            </option>
+            <option value="Check" show=".ctr_check1">Check</option>
+            <option value="Other" show="#ctr_other1,#ctr_other2">Other</option>
+        </select>
+        <div id="ctr_creditcard1">Credicard</div>
+        <div id="ctr_creditcard2">Credicard2</div>
+        <div class="ctr_check1" hidden>CHECK</div>
+        <div class="ctr_check1" hidden>CHECK2</div>
+        <div class="ctr_check1" hidden>CHECK3</div>
+        <div class="ctr_check1" hidden>CHECK4</div>
+        <div id="ctr_other1" hidden>OTHER</div>
 
-     
-    <script src="../dist/CoCreate-conditional-logic.js"></script>
-    <!-- <script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script> -->
+        <div hide="iframe;,#testdiv1" show="iframe;,#testdiv1">
+            <div class="test">click me</div>
+        </div>
 
-  </body>
+        <iframe srcdoc="<div id='testdiv1'> will toggle </div>"></iframe>
+        <div id="testdiv1" class="">will toggle</div>
+
+        <script src="../dist/CoCreate-conditional-logic.js"></script>
+        <!-- <script src="https://cdn.cocreate.app/latest/CoCreate.min.js"  ></script> -->
+    </body>
 </html>
-    
-
