@@ -1,3 +1,10 @@
+## [1.5.13](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.12...v1.5.13) (2023-06-04)
+
+
+### Bug Fixes
+
+* **semantic-release:** worklow error solved by running node version 14 ([1511dd2](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/1511dd29530409412e4c3a0d0b908a08dd063262))
+
 ## [1.5.12](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.11...v1.5.12) (2023-06-02)
 
 
