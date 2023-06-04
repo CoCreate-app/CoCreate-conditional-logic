@@ -1,3 +1,10 @@
+## [1.5.15](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.14...v1.5.15) (2023-06-04)
+
+
+### Bug Fixes
+
+* Refactor CoCreate.config.js to remove hard-coded credentials ([cf26b27](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/cf26b275f4907b4226ce4c50c3269da222576d24))
+
 ## [1.5.14](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.13...v1.5.14) (2023-06-04)
 
 
