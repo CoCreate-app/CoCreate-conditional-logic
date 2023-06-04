@@ -1,3 +1,11 @@
+## [1.5.14](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.13...v1.5.14) (2023-06-04)
+
+
+### Bug Fixes
+
+* replaced secert GITHUB_TOKEN with GITHUB ([c0a20d5](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/c0a20d587c8694e70eb5e132d1c7bffe5225b3b1))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([0e7b56e](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/0e7b56e2fc94b711f1657d565ee79085b36bae6f))
+
 ## [1.5.13](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.12...v1.5.13) (2023-06-04)
 
 
