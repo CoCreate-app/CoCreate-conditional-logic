@@ -1,3 +1,10 @@
+## [1.5.20](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.19...v1.5.20) (2023-06-11)
+
+
+### Bug Fixes
+
+* @cocreate/cli moved to dependencies ([718656c](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/718656cfba15225e32c2535176553a6e2ef32259))
+
 ## [1.5.19](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.18...v1.5.19) (2023-06-11)
 
 
