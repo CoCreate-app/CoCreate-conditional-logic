@@ -1,3 +1,10 @@
+## [1.5.26](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.25...v1.5.26) (2023-06-11)
+
+
+### Bug Fixes
+
+* testing workflow ([f7a4d49](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/f7a4d49c9e0b871472f61aa1c09172c5e2f248d2))
+
 ## [1.5.25](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.24...v1.5.25) (2023-06-11)
 
 
