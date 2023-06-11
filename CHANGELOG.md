@@ -1,3 +1,10 @@
+## [1.5.21](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.20...v1.5.21) (2023-06-11)
+
+
+### Bug Fixes
+
+* postintall error ([5eb0033](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/5eb00337c77a26d39cfdcd4efa7e7756e444672c))
+
 ## [1.5.20](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.19...v1.5.20) (2023-06-11)
 
 
