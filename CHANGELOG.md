@@ -1,3 +1,10 @@
+## [1.5.18](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.17...v1.5.18) (2023-06-11)
+
+
+### Bug Fixes
+
+* renamed hosts to host. the value can be a string or an array of strings ([0f19174](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/0f191745e67c9e73105ad969c9aa1c718bb0de77))
+
 ## [1.5.17](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.16...v1.5.17) (2023-06-10)
 
 
