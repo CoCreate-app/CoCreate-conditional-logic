@@ -59,7 +59,6 @@
   },
   "dependencies": {
     "@cocreate/actions": "^1.8.31",
-    "@cocreate/cli": "^1.34.0",
     "@cocreate/observer": "^1.8.18",
     "@cocreate/utils": "^1.21.15"
   }
