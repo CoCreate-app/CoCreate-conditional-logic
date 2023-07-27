@@ -7,7 +7,7 @@
 /*globals CustomEvent, CoCreate*/
 import observer from '@cocreate/observer';
 import action from '@cocreate/actions';
-import { queryDocumentSelectorAll } from '@cocreate/utils';
+import { queryElements } from '@cocreate/utils';
 
 // TODO: update to listen to document events, find closest action return
 function init() {
@@ -48,10 +48,10 @@ function selectShowHideEle(e) {
             if (value != '') {
                 var show = opt.getAttribute('show');
                 if (typeof show != 'undefined') {
-                    for (let el of queryDocumentSelectorAll(show))
+                    for (let el of queryElements({ element: document, selector: show, type: 'selector' }))
                         el.setAttribute('hidden', '');
                     if (opt.selected === true) {
-                        for (let el of queryDocumentSelectorAll(show))
+                        for (let el of queryElements({ element: document, selector: show, type: 'selector' }))
                             el.removeAttribute('hidden');
                     }
                 }
@@ -74,12 +74,11 @@ function clickShowHideEle(e) {
 
             show = radio.getAttribute('show');
 
-            for (let el of queryDocumentSelectorAll(show)) {
+            for (let el of queryElements({ element: document, selector: show, type: 'selector' }))
                 el.setAttribute('hidden', '');
-            }
 
             if (radio.checked) {
-                for (let el of queryDocumentSelectorAll(show))
+                for (let el of queryElements({ element: document, selector: show, type: 'selector' }))
                     el.removeAttribute('hidden');
             }
         }
@@ -88,14 +87,14 @@ function clickShowHideEle(e) {
 
         let updated_els = [];
 
-        for (let el of queryDocumentSelectorAll(show)) {
+        for (let el of queryElements({ element: document, selector: show, type: 'selector' })) {
             if (el.hasAttribute('hidden')) {
                 el.removeAttribute('hidden');
                 updated_els.push(el);
             }
         }
 
-        for (let el of queryDocumentSelectorAll(hide)) {
+        for (let el of queryElements({ element: document, selector: hide, type: 'selector' })) {
             let existEqual = false;
             for (let uel of updated_els) {
                 if (el.isEqualNode(uel)) {
