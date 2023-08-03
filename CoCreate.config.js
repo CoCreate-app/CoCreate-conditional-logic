@@ -4,8 +4,8 @@ module.exports = {
     "host": "",
     "sources": [
         {
-            "collection": "files",
-            "document": {
+            "array": "files",
+            "object": {
                 "_id": "6019bfa94eea0817df303b0c",
                 "name": "index.html",
                 "path": "/docs/conditional-logic/index.html",
