@@ -68,8 +68,8 @@ function clickShowHideEle(e) {
     let tagName = element.tagName.toLowerCase();
 
     if (tagName == 'input' && element.getAttribute("type").toLowerCase() == 'radio') {
-        let name = element.getAttribute("name");
-        let radios = document.querySelectorAll(tagName + '[name="' + name + '"]');
+        let key = element.getAttribute("key");
+        let radios = document.querySelectorAll(tagName + '[key="' + key + '"]');
         for (let radio of radios) {
 
             show = radio.getAttribute('show');
