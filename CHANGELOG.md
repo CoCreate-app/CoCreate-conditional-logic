@@ -1,3 +1,19 @@
+# [1.6.0](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.29...v1.6.0) (2023-08-16)
+
+
+### Bug Fixes
+
+* crud attributes renamed ([d759207](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/d759207eea5a573ab8f791585e3d7a4b83285fa5))
+* replace -target -selector ([c33ba43](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/c33ba43811188e71edb2d3ff7fd6c8dc65a51600))
+* updated actions callback data object ([2c105fa](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/2c105fa2c24703a5cd61b3772232045bdd69eb59))
+* webpack.config and package.json make use of mode=production instead of process.env ([c558a3f](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/c558a3f1f8cb885327ac8cf9d29858b24fab3e4a))
+
+
+### Features
+
+* name attribute and variable renamed to key ([28839a7](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/28839a7b3625ce52409de82838f529234fbbdb59))
+* Refactor selector utility in index.js ([b64bfb2](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/b64bfb25cbfe8a49b340ef3bb6e4e4651a6c849f))
+
 ## [1.5.29](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.5.28...v1.5.29) (2023-06-14)
 
 
