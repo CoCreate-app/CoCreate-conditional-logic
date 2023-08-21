@@ -1,3 +1,12 @@
+## [1.7.1](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.7.0...v1.7.1) (2023-08-21)
+
+
+### Bug Fixes
+
+* /dist/CoCreate.js updated to https://CoCreate.app/dist/CoCreate.js ([8f75702](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/8f757029564b5ed8dba8a6c7bb5c7cc4a2f618c6))
+* replace cdn with /dist ([abdb73c](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/abdb73c9c95a533984300a01f3941657afbee8b1))
+* update file uploader ([641e91a](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/641e91ae2e656a67d860350e31103eda1bb35f6c))
+
 # [1.7.0](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.6.0...v1.7.0) (2023-08-17)
 
 
