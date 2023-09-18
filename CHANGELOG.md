@@ -1,3 +1,11 @@
+## [1.8.2](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.8.1...v1.8.2) (2023-09-18)
+
+
+### Bug Fixes
+
+*  Add path and pathname ([f4fe590](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/f4fe590336d0c68629961a242e8c03d8496a9354))
+* Update CoCreate depndencies to latest versions ([6c21309](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/6c213098b80843965fd6fda9c29ee8a71745bd0f))
+
 ## [1.8.1](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.8.0...v1.8.1) (2023-08-21)
 
 
