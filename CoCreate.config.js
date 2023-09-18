@@ -8,17 +8,16 @@ module.exports = {
             "object": {
                 "_id": "6019bfa94eea0817df303b0c",
                 "name": "index.html",
-                "path": "/docs/conditional-logic/index.html",
+                "path": "/docs/conditional-logic",
+                "pathname": "/docs/conditional-logic/index.html",
                 "src": "{{./docs/index.html}}",
                 "host": [
                     "*",
                     "general.cocreate.app"
                 ],
-                "directory": "/docs/conditional-logic",
-                "parentDirectory": "{{parentDirectory}}",
+                "directory": "conditional-logic",
                 "content-type": "{{content-type}}",
-                "public": "true",
-                "website_id": "644d4bff8036fb9d1d1fd69c"
+                "public": "true"
             }
         }
     ]
