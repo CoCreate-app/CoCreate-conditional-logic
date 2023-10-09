@@ -1,3 +1,11 @@
+## [1.8.3](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.8.2...v1.8.3) (2023-10-09)
+
+
+### Bug Fixes
+
+* bump cocreate dependency versions ([ab1ddd1](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/ab1ddd1caea240d83359cc08d894448f2a0fca31))
+* bump dependencies ([7b19a6a](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/7b19a6ab5f258e42a98874e34ab75fbb7ddf5fe0))
+
 ## [1.8.2](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.8.1...v1.8.2) (2023-09-18)
 
 
