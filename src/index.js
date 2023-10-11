@@ -102,7 +102,9 @@ function clickShowHideEle(e) {
                     break;
                 }
             }
-            if (!existEqual) el.setAttribute('hidden', '');
+
+            if (!existEqual)
+                el.setAttribute('hidden', '')
         }
     }
 
