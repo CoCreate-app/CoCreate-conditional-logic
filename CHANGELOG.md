@@ -1,3 +1,11 @@
+## [1.8.8](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.8.7...v1.8.8) (2023-11-03)
+
+
+### Bug Fixes
+
+* favicon.ico path ([c45084f](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/c45084fd62c5ab3c71467f9d8f3f608a3f4b90b0))
+* update dependencies to the lates versions ([323b788](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/323b788c30e7db1d092b8f22b235d6a42e2075a1))
+
 ## [1.8.7](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.8.6...v1.8.7) (2023-10-25)
 
 
