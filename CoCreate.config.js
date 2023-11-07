@@ -12,8 +12,7 @@ module.exports = {
                 "pathname": "/docs/conditional-logic/index.html",
                 "src": "{{./docs/index.html}}",
                 "host": [
-                    "*",
-                    "general.cocreate.app"
+                    "*"
                 ],
                 "directory": "conditional-logic",
                 "content-type": "{{content-type}}",
