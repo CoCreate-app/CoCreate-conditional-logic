@@ -1,3 +1,11 @@
+## [1.8.9](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.8.8...v1.8.9) (2023-11-09)
+
+
+### Bug Fixes
+
+* meta name typo ([a1030c1](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/a1030c105422edfa0fa9bb3bdea334dbec4e0b12))
+* update host ([bc19a0d](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/bc19a0daf95170e094762328a622ddd24eb3d08f))
+
 ## [1.8.8](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.8.7...v1.8.8) (2023-11-03)
 
 
