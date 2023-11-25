@@ -1,3 +1,15 @@
+# [1.10.0](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.9.0...v1.10.0) (2023-11-25)
+
+
+### Bug Fixes
+
+* update nav, edit button and css path ([fc43d51](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/fc43d518269b2cf1096caf398be50a6b362f5c53))
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([a4058b8](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/a4058b84d60b6b05193ba10cd7855ab2714003f7))
+
 # [1.9.0](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.8.10...v1.9.0) (2023-11-19)
 
 
