@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.11.0...v1.11.1) (2024-02-05)
+
+
+### Bug Fixes
+
+* Removed https://cdn.cocreate.app/latest/CoCreate.min.css ([4e96c2c](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/4e96c2cc26b9cacef921d07aaab988d1d7606c8e))
+
 # [1.11.0](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.10.0...v1.11.0) (2023-11-25)
 
 
