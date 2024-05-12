@@ -28,8 +28,7 @@ function initElement(el) {
         el.removeEventListener('change', selectShowHideEle);
 
         el.addEventListener("change", selectShowHideEle);
-    }
-    else {
+    } else {
         el.removeEventListener('change', selectShowHideEle);
         el.removeEventListener("click", clickShowHideEle);
 
@@ -82,30 +81,31 @@ function clickShowHideEle(e) {
                     el.removeAttribute('hidden');
             }
         }
-    }
-    else {
+    } else {
 
         let updated_els = [];
 
-        for (let el of queryElements({ element: document, selector: show, type: 'selector' })) {
-            if (el.hasAttribute('hidden')) {
-                el.removeAttribute('hidden');
-                updated_els.push(el);
-            }
-        }
-
-        for (let el of queryElements({ element: document, selector: hide, type: 'selector' })) {
-            let existEqual = false;
-            for (let uel of updated_els) {
-                if (el.isEqualNode(uel)) {
-                    existEqual = true;
-                    break;
+        if (show)
+            for (let el of queryElements({ element: document, selector: show, type: 'selector' })) {
+                if (el.hasAttribute('hidden')) {
+                    el.removeAttribute('hidden');
+                    updated_els.push(el);
                 }
             }
 
-            if (!existEqual)
-                el.setAttribute('hidden', '')
-        }
+        if (hide)
+            for (let el of queryElements({ element: document, selector: hide, type: 'selector' })) {
+                let existEqual = false;
+                for (let uel of updated_els) {
+                    if (el.isEqualNode(uel)) {
+                        existEqual = true;
+                        break;
+                    }
+                }
+
+                if (!existEqual)
+                    el.setAttribute('hidden', '')
+            }
     }
 
     document.dispatchEvent(new CustomEvent('showHide', {
