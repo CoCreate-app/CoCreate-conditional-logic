@@ -1,3 +1,10 @@
+## [1.11.3](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.11.2...v1.11.3) (2024-05-19)
+
+
+### Bug Fixes
+
+* conditins for show and hide queryElements ([0e51eba](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/0e51eba4342cb167d22c2085aab59960e5639e38))
+
 ## [1.11.2](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.11.1...v1.11.2) (2024-04-29)
 
 
