@@ -1,3 +1,11 @@
+## [1.11.4](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.11.3...v1.11.4) (2024-06-12)
+
+
+### Bug Fixes
+
+* bump cocreate dependencies ([7b845c9](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/7b845c96984cbb3984218c63f65df40ae663a53b))
+* svg icon class ([7a858e7](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/7a858e7300a888e0703a5a67291cc9a01f264762))
+
 ## [1.11.3](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.11.2...v1.11.3) (2024-05-19)
 
 
