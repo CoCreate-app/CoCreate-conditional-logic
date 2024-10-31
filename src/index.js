@@ -121,7 +121,7 @@ document.addEventListener('fetchedData', () => {
 observer.init({
     name: 'CoCreateConditionalLogic',
     observe: ['addedNodes'],
-    target: '[show], [hide]',
+    selector: '[show], [hide]',
     callback: function (mutation) {
         initElement(mutation.target);
     }
