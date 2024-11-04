@@ -1,3 +1,17 @@
+# [1.12.0](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.11.4...v1.12.0) (2024-11-04)
+
+
+### Bug Fixes
+
+* observer taget has been renamed to selector ([f9faf16](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/f9faf16a983bb2426c833227fb5d731ff7033bdf))
+* pretier.config.js and file formating ([2d0d582](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/2d0d5826cedf77241499d8c0cf57567ed538a007))
+
+
+### Features
+
+* add prettier.config.js and format files ([8c6e49b](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/8c6e49b0b6f77c7eb00ac912f6b3582cb21d663e))
+* add prettier.config.js and format files ([8ac6997](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/8ac699743762d86ec2b94d1523cf9d33e183b647))
+
 ## [1.11.4](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.11.3...v1.11.4) (2024-06-12)
 
 
