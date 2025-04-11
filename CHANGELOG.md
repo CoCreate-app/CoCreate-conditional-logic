@@ -1,3 +1,11 @@
+## [1.12.1](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.12.0...v1.12.1) (2025-04-11)
+
+
+### Bug Fixes
+
+* dispatch end event on action element rather than document ([2942e5a](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/2942e5a55f3b36e49f7c7bab1aee5121056d1a6c))
+* update observer observe param to type and and attributeName to attributeFilter ([662bf5a](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/662bf5a28e3367e597272acc6ac033dd4fcd2ccf))
+
 # [1.12.0](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.11.4...v1.12.0) (2024-11-04)
 
 
