@@ -1,3 +1,13 @@
+## [1.12.2](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.12.1...v1.12.2) (2025-04-30)
+
+
+### Bug Fixes
+
+* added css-loader ([33f3b22](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/33f3b221e0d2fd6a561fbdca56cacd7fa2fd5b8d))
+* update query attributes ([0cde9e8](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/0cde9e8939e8ab92d8225b81d900ccea4bd7c1ff))
+* updated cocreate modules versions ([a986933](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/a98693337760280a6acb52e82ecfd8ac4f97355e))
+* webpack.config and devdependencies ([59ccbf1](https://github.com/CoCreate-app/CoCreate-conditional-logic/commit/59ccbf1a336d7a08be169a0eafc28d476d2e9d56))
+
 ## [1.12.1](https://github.com/CoCreate-app/CoCreate-conditional-logic/compare/v1.12.0...v1.12.1) (2025-04-11)
 
 
